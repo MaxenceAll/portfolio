@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    border-bottom: solid 2px var(--main-color);
+    align-items: start;
+    border-bottom: solid 1px var(--main-color);
 }
 
 .header-tabs li {
@@ -17,10 +17,12 @@
     background-color: var(--secondary-color);
 }
 
-.header-tab-active::before {
+.header-tab-active li::before {
+    color: var(--main-color);
     content: '┌ ';
 }
 
-.header-tab-active::after {
+.header-tab-active li::after {
+    color: var(--main-color);
     content: ' ┐';
 }

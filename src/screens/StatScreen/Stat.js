@@ -1,11 +1,14 @@
-import HomeFooter from "../components/HomeFooter/HomeFooter";
-import HomeHeader from "../components/HomeHeader/HomeHeader";
-import HomeMiddle from "../components/HomeMiddle/HomeMiddle";
+import HomeFooter from "../../components/HomeFooter/HomeFooter";
+import HomeHeader from "../../components/HomeHeader/HomeHeader";
+import HomeMiddle from "../../components/HomeMiddle/HomeMiddle";
 
 
-import './Home.css'
+import './Stat.css'
 
-function Home() {
+function Stat(props) {
+
+  let myPropValue = props.myProp;
+
   return (
     <>
       <div className="scanbar"></div>
@@ -31,4 +34,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Stat;

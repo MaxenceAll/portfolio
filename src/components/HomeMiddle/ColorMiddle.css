@@ -1,0 +1,59 @@
+.color-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 88px;
+    grid-row-gap: 88px;
+    padding-top: 15%;
+    padding-left: 0;
+    text-align: center;
+
+}
+
+
+.color-container div:hover {
+    cursor: pointer;
+}
+
+
+
+
+.color1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: var(--secondary-color);
+}
+
+.color2 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: var(--secondary-color);
+}
+
+.color3 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: var(--secondary-color);
+}
+
+.color4 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: var(--secondary-color);
+}
+
+.color5 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: var(--secondary-color);
+}
+
+.color6 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: var(--secondary-color);
+}
+
+.color7 {
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: var(--secondary-color);
+}
+
+.color-active{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}

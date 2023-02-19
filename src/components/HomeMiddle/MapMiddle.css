@@ -1,0 +1,25 @@
+.MapNord-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    gap: 2rem;
+}
+
+.MapNord-container img{
+    width: 33rem;
+    max-height: 33rem;
+    filter: 
+        grayscale(100%) 
+        brightness(40%) 
+        sepia(100%) 
+        hue-rotate(50deg) 
+        saturate(1000%) 
+        contrast(0.8)
+}
+
+.HomeMiddleFooter{
+    
+    align-self: center;
+}

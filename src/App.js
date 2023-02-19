@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./screens/Home";
+import Stat from "./screens/StatScreen/Stat";
 import About from "./screens/About";
 
 import './App.css'
 
 import CVscreen from "./components/CV/CVscreen";
+import Map from "./screens/MapScreen/Map";
+import Color from "./screens/ColorScreen/Color";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <About />  } />
-          <Route path="/stat" element={ <Home />  } />
+          <Route path="/stat" element={ <Stat tab_selected="status"/>  } />
+          <Route path="/map" element={ <Map />  } />
+          <Route path="/color" element={ <Color />  } />
 
           <Route path="/about" element={  <About /> } />         
           <Route path="/cv" element={ <CVscreen/> }/>

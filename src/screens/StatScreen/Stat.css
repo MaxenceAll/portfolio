@@ -45,7 +45,7 @@
     border-image-width:   20% 20% 20% 20%;
     border-image-outset:  15 23 20 23;
     border-image-repeat:  stretch stretch;
-    border-image-source: url("../assets/pipboy333.png");
+    border-image-source: url("../../assets/pipboy333.png");
     border-style:  solid;
   }
   
