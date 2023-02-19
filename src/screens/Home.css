@@ -1,0 +1,36 @@
+.ecran {
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    /* taille écran du pipboy */
+    height: 70%;
+    width: 70%;
+    border: solid 2px var(--secondary-color);
+    border-radius: 2%;
+    z-index: 1;
+
+}
+
+/* Layout */
+.ecran-header {
+    grid-row: 1 / 2;
+}
+
+.ecran-section {
+    grid-row: 2 / 2;
+}
+
+.ecran-footer {
+    grid-row: 3 / 4;
+}
+
+/* ECRAN effect*/
+.radial-gradient {
+    top:0px;
+    left:0px;
+    background: 
+      radial-gradient(
+       at center, var(--secondary-color), var(--background-color)
+      );
+  }
+  

@@ -1,0 +1,35 @@
+/* FOOTER ECRAN */
+.ecran-footer {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15%;
+    /* border-top: solid 2px var(--main-color); */
+}
+
+.ecran-footer > * {
+    background-color: var(--secondary-color);
+}
+
+/* LEVEL UP BAR */
+.level-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.level-bar {
+    height: 1rem;
+    width: 5rem;
+    border: solid 2px var(--main-color);
+}
+
+.level-progress {
+    content: "";
+    height: 1rem;
+    background-color: var(--main-color);
+    width: 75%;
+}

@@ -1,13 +1,15 @@
 import { NavLink } from "react-router-dom";
 
+import './HomeHeader.css'
+
 function HomeHeader() {
   return (
     <>
       <header className="header">
-        <ul className="tabs">
+        <ul className="header-tabs">
 
-          <NavLink to="/">
-            <li className="tab-active">
+          <NavLink to="/stat/status">
+            <li className="header-tab-active">
              STAT
             </li>
           </NavLink>

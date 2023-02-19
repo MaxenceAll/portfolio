@@ -1,0 +1,26 @@
+/* HEADER ECRAN */
+.header-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px var(--main-color);
+}
+
+.header-tabs li {
+    font-size: 100%;
+    color: var(--main-color);
+}
+
+.header-tabs li:hover {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+.header-tab-active::before {
+    content: '┌ ';
+}
+
+.header-tab-active::after {
+    content: ' ┐';
+}

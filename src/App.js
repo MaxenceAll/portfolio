@@ -1,19 +1,21 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import About from "./screens/About";
 import Home from "./screens/Home";
-import Download from "./screens/Download"
+import About from "./screens/About";
+
+import './App.css'
 
 import CVscreen from "./components/CV/CVscreen";
 
 function App() {
   return (
     <>
+      <div className="scanbar"></div>
+      <div className="noise"></div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <Home />  } />
-          <Route path="/about" element={  <About /> } />
-          <Route path="/download" element={ <Download />  } />
+          <Route path="/about" element={  <About /> } />         
           <Route path="/cv" element={ <CVscreen/> }/>
 
 

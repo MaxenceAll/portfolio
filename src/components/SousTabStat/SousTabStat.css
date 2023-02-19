@@ -1,0 +1,26 @@
+/* Sous tab stat ECRAN */
+.sous-tabs-stat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sous-tabs-stat li {
+    font-size: 100%;
+    color: var(--main-color);
+}
+
+.sous-tabs-stat li:hover {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+.sous-tabs-stat-active::before {
+    content: '[ ';
+}
+
+.sous-tabs-stat-active::after {
+    content: ' ]';
+}
