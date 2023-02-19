@@ -1,16 +1,4 @@
-:root {
-    --main-color: #18dc0c;
-    --secondary-color: #11291b;
-    --background-color: #10170f;
-  
-    /* --main-color: red;
-    --secondary-color: rgba(243, 174, 174, 0.664);
-    --background-color: #10170f; */
-  
-    --ecran-x: 100vw;
-    --ecran-y: 100svh;
-  }
-  
+
   *,
   *::after,
   *::before {

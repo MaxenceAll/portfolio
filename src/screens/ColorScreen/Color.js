@@ -2,10 +2,13 @@ import HomeFooter from "../../components/HomeFooter/HomeFooter";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
 import ColorMiddle from "../../components/HomeMiddle/ColorMiddle";
 
+import { useState } from "react";
+
 
 import './Color.css'
 
 function Color() {
+
 
 
   return (

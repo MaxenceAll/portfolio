@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import { useState } from "react";
+
 import Stat from "./screens/StatScreen/Stat";
 import About from "./screens/About";
 
@@ -10,6 +12,9 @@ import Map from "./screens/MapScreen/Map";
 import Color from "./screens/ColorScreen/Color";
 
 function App() {
+
+
+
   return (
     <>
 

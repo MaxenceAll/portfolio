@@ -68,13 +68,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2rem;
+  gap: 2rem,;
 }
 
-.StatusFooter-text{
-  
+.StatusFooter-container li {
+  background-color: var(--secondary-color);
 }
-
 
 /* hp bars: */
 

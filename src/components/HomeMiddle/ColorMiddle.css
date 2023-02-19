@@ -18,37 +18,37 @@
 
 
 
-.color1 {
+.colorGreen {
     grid-area: 1 / 1 / 2 / 2;
     background-color: var(--secondary-color);
 }
 
-.color2 {
+.colorRed {
     grid-area: 2 / 1 / 3 / 2;
     background-color: var(--secondary-color);
 }
 
-.color3 {
+.colorOrange {
     grid-area: 1 / 2 / 2 / 3;
     background-color: var(--secondary-color);
 }
 
-.color4 {
+.colorIce {
     grid-area: 2 / 2 / 3 / 3;
     background-color: var(--secondary-color);
 }
 
-.color5 {
+.colorNuka {
     grid-area: 1 / 3 / 2 / 4;
     background-color: var(--secondary-color);
 }
 
-.color6 {
+.colorGold {
     grid-area: 2 / 3 / 3 / 4;
     background-color: var(--secondary-color);
 }
 
-.color7 {
+.colorPink {
     grid-area: 3 / 2 / 4 / 3;
     background-color: var(--secondary-color);
 }
