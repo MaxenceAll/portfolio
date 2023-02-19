@@ -2,14 +2,20 @@ import HomeFooter from "../../components/HomeFooter/HomeFooter";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
 import ColorMiddle from "../../components/HomeMiddle/ColorMiddle";
 
-import { useState } from "react";
-
-
 import './Color.css'
 
-function Color() {
+function Color(props) {
 
+  function handleColorChange1(color) {
+    props.onColorChange1(color);
 
+  }
+  function handleColorChange2(colorSecondary) {
+    props.onColorChange2(colorSecondary);
+  }
+  function handleColorChange3(colorBackground) {
+    props.onColorChange3(colorBackground);
+  }
 
   return (
     <>
@@ -24,7 +30,7 @@ function Color() {
             <HomeHeader />   
           </div>
           <div className="ecran-section">
-            <ColorMiddle />
+            <ColorMiddle onColorChange1={handleColorChange1} onColorChange2={handleColorChange2} onColorChange3={handleColorChange3}/> 
           </div>
           <div className="ecran-footer">
             <HomeFooter />
