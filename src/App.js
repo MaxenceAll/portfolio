@@ -10,17 +10,18 @@ import CVscreen from "./components/CV/CVscreen";
 function App() {
   return (
     <>
-      <div className="scanbar"></div>
-      <div className="noise"></div>
+
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={ <Home />  } />
+          <Route path="/" element={ <About />  } />
+          <Route path="/stat" element={ <Home />  } />
+
           <Route path="/about" element={  <About /> } />         
           <Route path="/cv" element={ <CVscreen/> }/>
 
 
           {/* Si aucune route connue : */}
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>

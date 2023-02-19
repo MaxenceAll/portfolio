@@ -13,19 +13,21 @@ function Status() {
         <div className="hp-bar">
           <div className="hp-bar-progress">
           </div>
+          100%
         </div>      
       </div>
 
       <div className="VaultBoy">
         <div className="VaultBoyContainer">
           <img className="animated-gif" src={vaultboy} alt="vault boy marchant" />
-        </div>
+        </div>        
       </div>
 
       <div className="HpLeftHand">
         <div className="hp-bar">
           <div className="hp-bar-progress">
           </div>
+          100%
         </div>
       </div>
 
@@ -33,6 +35,7 @@ function Status() {
         <div className="hp-bar">
           <div className="hp-bar-progress">
           </div>
+          100%
         </div>
       </div>
 
@@ -40,6 +43,7 @@ function Status() {
         <div className="hp-bar">
           <div className="hp-bar-progress">
           </div>
+          100%
         </div>
       </div>
 
@@ -47,32 +51,39 @@ function Status() {
         <div className="hp-bar">
           <div className="hp-bar-progress-bis">
           </div>
+          75%
         </div>
       </div>
 
-
       <div className="StatusFooter">
-        <ul>
-          <li>
-            <FaHtml5 />
-          </li>
-          <li>
-            <FaCss3Alt />
-          </li>
-          <li>
-            <FaJs />
-          </li>
-          <li>
-            <FaReact />
-          </li>
-          <li>
-            <FaJava />
-          </li>
-          <li>
-            <SiCsharp />
-          </li>
-          
-        </ul>
+        <div className="StatusFooter-container">
+          <ul>
+            <li>
+              <FaHtml5 />
+            </li>
+            <li>
+              <FaCss3Alt />
+            </li>
+            <li>
+              <FaJs />
+            </li>
+            <li>
+              <FaReact />
+            </li>
+            <li>
+              <FaJava />
+            </li>
+            <li>
+              <SiCsharp />
+            </li>
+            
+          </ul>
+
+          <div className="StatusFooter-text">
+            tata
+          </div>
+
+        </div>
       </div>
 
     </div>

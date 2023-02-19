@@ -8,6 +8,7 @@ function HomeFooter() {
         <div className="hp-container">
           <p>HP: 1337/1337</p>
         </div>
+        
 
         <div className="level-container">
           LEVEL 34:
@@ -15,6 +16,7 @@ function HomeFooter() {
             <div className="level-progress"> </div>
           </div>
         </div>
+
 
         <div className="ap-container">
           <p>AP: 9001/9001</p>

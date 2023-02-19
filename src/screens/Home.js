@@ -8,7 +8,8 @@ import './Home.css'
 function Home() {
   return (
     <>
-
+      <div className="scanbar"></div>
+      <div className="noise"></div>
 
       <div className="container">
 

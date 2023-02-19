@@ -4,12 +4,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 15%;
-    /* border-top: solid 2px var(--main-color); */
+    flex-wrap: nowrap;
+
 }
 
-.ecran-footer > * {
+.ecran-footer > div {
     background-color: var(--secondary-color);
+
 }
 
 /* LEVEL UP BAR */
@@ -33,3 +34,8 @@
     background-color: var(--main-color);
     width: 75%;
 }
+
+
+/* *{
+  border: solid 1px pink;
+}  */

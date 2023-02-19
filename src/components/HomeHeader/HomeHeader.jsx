@@ -8,7 +8,7 @@ function HomeHeader() {
       <header className="header">
         <ul className="header-tabs">
 
-          <NavLink to="/stat/status">
+          <NavLink to="/stat">
             <li className="header-tab-active">
              STAT
             </li>
