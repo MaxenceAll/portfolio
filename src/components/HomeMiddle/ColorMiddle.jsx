@@ -30,9 +30,9 @@ function ColorMiddle(props) {
         <div className="colorRed" 
         onClick={() => 
           {
-          handleColorOptionClick1("#e74c3c");
-          handleColorOptionClick2("#f3aeaea9");
-          handleColorOptionClick3("#10170f");
+          handleColorOptionClick1("#ff0000");
+          handleColorOptionClick2("#864e4e");
+          handleColorOptionClick3("#240804");
           }
         }
         >
