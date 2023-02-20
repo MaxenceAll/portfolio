@@ -1,4 +1,6 @@
 :root {
+
+  /* no longer used  */
     --main-color: #18dc0c;
     --secondary-color: #11291b;
     --background-color: #10170f;
@@ -64,7 +66,8 @@
     height: 100vh;
     width: 100vw;
     overflow: hidden;  
-    
+
+
   
     /* top right  bot left */
     border-image-slice:   15% 34% 35% 17%;
@@ -73,6 +76,9 @@
     border-image-repeat:  stretch stretch;
     border-image-source: url("./assets/pipboy333.png");
     border-style:  solid;
+
+    z-index: ;
+
   }
   
   
@@ -93,12 +99,15 @@
     background-image: linear-gradient(
         0deg,
         transparent 0%,
-        rgba(32, 128, 32, 0.2) 1%,
-        rgba(32, 128, 32, 0.8) 2%,
-        rgba(32, 128, 32, 0.2) 2%,
+        #20802033 1%,
+        #208020cc 2%,
+        #20802033 2%,
         transparent 100%);
     background-repeat: no-repeat;    
     animation: scan 7.5s linear 0s infinite;
+
+    margin: 15vh 14.7vw;
+
   }
   @keyframes scan {
     0%        { background-position: 0 -100vh; }
@@ -117,7 +126,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 9999;
-    opacity: .01;
+    opacity: .02;
   }
   
 

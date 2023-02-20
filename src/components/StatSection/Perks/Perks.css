@@ -1,0 +1,36 @@
+.perks-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 10%;
+}
+
+.perks-left-side {
+    grid-area: 1 / 1 / 2 / 2;
+    padding-left: 2%;
+    width: 80%;
+}
+
+.perks-right-side {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.perks-left-side li:hover{
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+}
+
+.perks-left-side li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.perks-active-tab
+{
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+}
