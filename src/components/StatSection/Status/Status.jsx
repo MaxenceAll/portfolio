@@ -80,7 +80,7 @@ function Status() {
           </ul>
 
           <div className="StatusFooter-text">
-            tata
+            Description here
           </div>
 
         </div>

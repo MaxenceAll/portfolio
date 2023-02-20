@@ -4,7 +4,7 @@ function CVscreen() {
 
 
 
-    <video autoplay muted loop id="myVideo">
+    <video autoPlay muted loop id="myVideo">
       <source src="../assets/CVassets/background.mp4" type="video/mp4" />
     </video>
 

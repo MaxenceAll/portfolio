@@ -15,13 +15,15 @@ function ColorMiddle(props) {
   
     return (
     <>
+
+    
       <div className="color-container">
         <div className="colorGreen color-active" 
         onClick={() => 
           {
-          handleColorOptionClick1("#18dc0c");
-          handleColorOptionClick2("#11291b");
-          handleColorOptionClick3("#11291b");
+            handleColorOptionClick1("#18dc0c");
+            handleColorOptionClick2("#11291b");
+            handleColorOptionClick3("#11291b");
           }
         }
         >
@@ -30,9 +32,9 @@ function ColorMiddle(props) {
         <div className="colorRed" 
         onClick={() => 
           {
-          handleColorOptionClick1("#ff0000");
-          handleColorOptionClick2("#864e4e");
-          handleColorOptionClick3("#240804");
+            handleColorOptionClick1("#ff0000");
+            handleColorOptionClick2("#864e4e");
+            handleColorOptionClick3("#240804");
           }
         }
         >
@@ -40,31 +42,71 @@ function ColorMiddle(props) {
         </div>
 
 
-        {/* <div className="colorOrange" 
-        onClick={() => handleColorOptionClick("#ffa07a")}
+        <div className="colorOrange" 
+        onClick={() =>
+          {
+            handleColorOptionClick1("#ffa07a")
+            handleColorOptionClick2("#d86800")
+            handleColorOptionClick3("#3d2300")
+          }
+        }
         >
           Orange Mutant
         </div>
+
+
+
         <div className="colorIce" 
-        onClick={() => handleColorOptionClick("#81ecec")}
+        onClick={() => 
+          {
+            handleColorOptionClick1("#0000ff")
+            handleColorOptionClick2("#add8e6")
+            handleColorOptionClick3("#000050")
+          }
+        }
         >
           Ice
         </div>
+
+
         <div className="colorNuka" 
-        onClick={() => handleColorOptionClick("#f5b041")}
+        onClick={() => 
+          {
+            handleColorOptionClick1("#33ffff")
+            handleColorOptionClick2("#0088dd")
+            handleColorOptionClick3("#002233")
+          }
+        }
         >
           Nuka Cola
         </div>
+
+
+
         <div className="colorGold" 
-        onClick={() => handleColorOptionClick("#f1c40f")}
+        onClick={() => 
+          {
+            handleColorOptionClick1("#f1c40f")
+            handleColorOptionClick2("#8a7e3d")
+            handleColorOptionClick3("#272100")
+          }
+        }
         >
           Gold
         </div>
+
+
         <div className="colorPink" 
-        onClick={() => handleColorOptionClick("#fd79a8")}
+        onClick={() => 
+          {
+            handleColorOptionClick1("#ffc0cb")
+            handleColorOptionClick2("#f77288")
+            handleColorOptionClick3("#63212c")
+          }
+        }
         >
           Pink boy
-        </div> */}
+        </div>
 
       </div>
     </>

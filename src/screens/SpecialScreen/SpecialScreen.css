@@ -1,0 +1,17 @@
+.statMiddleContainer{
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-template-rows: auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: start;
+    text-align: start;    
+    width: 100%;
+    height: fit-content;
+}
+
+
+/* 
+div{
+    border: 2px pink solid;
+} */

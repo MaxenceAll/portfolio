@@ -17,13 +17,13 @@ function Map() {
 
         <div className="ecran radial-gradient">
 
-          <div className="ecran-header">
+          <div className="">
             <HomeHeader />   
           </div>
-          <div className="ecran-section">
+          <div className="">
             <MapMiddle />
           </div>
-          <div className="ecran-footer">
+          <div className="">
             <HomeFooter />
           </div>
         </div>

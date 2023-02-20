@@ -9,7 +9,7 @@ function HomeHeader() {
         <ul className="header-tabs">
 
           <NavLink 
-          to="/stat"
+          to="/stat/status"
           className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
             <li className="">
@@ -18,7 +18,7 @@ function HomeHeader() {
           </NavLink>
 
           <NavLink 
-          to="/about"
+          to="/exp"
           className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
             <li>

@@ -17,10 +17,10 @@
     background-color: var(--secondary-color);
 }
 
-.sous-tabs-stat-active::before {
-    content: '[ ';
+.sous-tabs-stat-active li::before {
+    content: '[';
 }
 
-.sous-tabs-stat-active::after {
-    content: ' ]';
+.sous-tabs-stat-active li::after {
+    content: ']';
 }

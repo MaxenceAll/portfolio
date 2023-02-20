@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import StatTab from "../SousTabStat/SousTabStat";
 import { FaDownload } from "react-icons/fa";
 
 import './HomeMiddle.css'
 import Status from "../StatSection/Status/Status";
+import SousTabStat from "../SousTabStat/SousTabStat";
 
 function HomeMiddle() {
   return (
@@ -11,7 +11,7 @@ function HomeMiddle() {
         <div className="HomeMiddleContainer">
 
             <div className="HomeMiddleHeader">
-                <StatTab />
+                <SousTabStat />
             </div>
 
             <div className="HomeMiddleContent">

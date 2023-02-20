@@ -1,0 +1,21 @@
+.special-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 10%;
+}
+
+.special-left-side {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.special-right-side {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.special-left-side li:hover{
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+}

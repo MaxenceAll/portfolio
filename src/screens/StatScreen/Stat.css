@@ -1,89 +1,6 @@
 
-  *,
-  *::after,
-  *::before {
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  }
-  
-  html{
-    font-family: 'Oxygen Mono', monospace;
-    background-color: var(--background-color);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;    
-  }
-  body{
-    color: var(--main-color);
-    overflow: hidden;      
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;  
-  
-    /* top right  bot left */
-    border-image-slice:   15% 34% 35% 17%;
-    border-image-width:   20% 20% 20% 20%;
-    border-image-outset:  15 23 20 23;
-    border-image-repeat:  stretch stretch;
-    border-image-source: url("../../assets/pipboy333.png");
-    border-style:  solid;
-  }
-  
-  
-  /* SCANBAR */
-  .scanbar{
-    width: 100%;
-  }
-  .scanbar::before {
-    content: "";
-    pointer-events: none;
-    z-index: 2;
-    position: absolute;
-    /* TODO FIX position */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: linear-gradient(
-        0deg,
-        transparent 0%,
-        rgba(32, 128, 32, 0.2) 1%,
-        rgba(32, 128, 32, 0.8) 2%,
-        rgba(32, 128, 32, 0.2) 2%,
-        transparent 100%);
-    background-repeat: no-repeat;    
-    animation: scan 7.5s linear 0s infinite;
-  }
-  @keyframes scan {
-    0%        { background-position: 0 -100vh; }
-    35%, 100% { background-position: 0 100vh; }
-  }
-  /* NOISE EFFECT */
-  .noise {
-    /* TODO FIX position */
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 9999;
-    opacity: .01;
-  }
-  
-  
-  
+
+
   
   @media only screen and (max-width: 600px) 
   {
@@ -92,27 +9,12 @@
   
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    
   
   /* *{
     border: solid 1px pink;
   }  */
   
-
-
-
-
-
-
 
 
 
@@ -128,18 +30,7 @@
     z-index: 1;
 }
 
-/* Layout */
-.ecran-header {
-    grid-row: 1 / 2;
-}
 
-.ecran-section {
-    grid-row: 2 / 2;
-}
-
-.ecran-footer {
-    grid-row: 3 / 4;
-}
 
 /* ECRAN effect*/
 .radial-gradient {

@@ -34,25 +34,25 @@
 .HpLeftHand {
   grid-area: 2 / 1 / 3 / 2;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .HpRightHand {
   grid-area: 2 / 4 / 3 / 5;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .HpLeftFeet {
   grid-area: 4 / 1 / 5 / 2;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .HpRightFeet {
   grid-area: 4 / 4 / 5 / 5;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .StatusFooter {
