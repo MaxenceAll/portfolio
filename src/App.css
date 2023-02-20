@@ -64,6 +64,7 @@
     height: 100vh;
     width: 100vw;
     overflow: hidden;  
+    
   
     /* top right  bot left */
     border-image-slice:   15% 34% 35% 17%;
@@ -119,3 +120,30 @@
     opacity: .01;
   }
   
+
+  
+.ecran {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* taille écran du pipboy */
+  height: 70%;
+  width: 70%;
+  /* max-width: 1000px; */
+  border: solid 2px var(--secondary-color);
+  border-radius: 2%;
+  z-index: 1;
+
+}
+
+
+
+/* ECRAN effect*/
+.radial-gradient {
+  top:0px;
+  left:0px;
+  background: 
+    radial-gradient(
+     at center, var(--secondary-color), var(--background-color)
+    );
+}
