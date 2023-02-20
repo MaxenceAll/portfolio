@@ -12,6 +12,7 @@ import Color from "./screens/ColorScreen/Color";
 
 import { useState } from "react";
 import { useEffect } from "react";
+import { useCallback } from "react";
 
 import SpecialScreen from "./screens/SpecialScreen/SpecialScreen";
 import PerksScreen from "./screens/PerksScreen/PerksScreen";
@@ -19,9 +20,10 @@ import PerksScreen from "./screens/PerksScreen/PerksScreen";
 function App() {
 
 
-
+  // Effet d'écran
   useEffect(() => {
-    const handleMouseMove = (event) => {
+    if (typeof window !== 'undefined') {
+      const handleMouseMove = (event) => {
       let windowWidth = window.innerWidth;
       let windowHeight = window.innerHeight;
     
@@ -34,29 +36,34 @@ function App() {
       for (let i = 0; i < elements.length; i++) {
         elements[i].style.background = radialGradient;
       }
-    }
-    
-    document.addEventListener('mousemove', handleMouseMove);
+    };
+    window.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-    }
-  }, [])
+      window.removeEventListener('mousemove', handleMouseMove);
+    };
+  }
+}, []);
 
 
   const [selectedColor, setSelectedColor] = useState("#18dc0c");
   const [selectedColorSecondary, setSelectedColorSecondary] = useState("#11291b");
   const [selectedColorBackground, setSelectedColorBackground] = useState("#11291b");
 
-  function handleColorChange1(color) {
-    setSelectedColor(color);
-  }
-  function handleColorChange2(colorSecondary) {
-    setSelectedColorSecondary(colorSecondary);
-  }
-  function handleColorChange3(colorBackground) {
-    setSelectedColorBackground(colorBackground);
-  }
+
+  // prevent unnecessary re-renders: (usecallback)
+  const handleColorChange1 = useCallback((selectedColor) => {
+    setSelectedColor(selectedColor);
+  }, []);
+  
+  const handleColorChange2 = useCallback((selectedColorSecondary) => {
+    setSelectedColorSecondary(selectedColorSecondary);
+  }, []);
+  
+  const handleColorChange3 = useCallback((selectedColorBackground) => {
+    setSelectedColorBackground(selectedColorBackground);
+  }, []);
+  
 
   let brightnessValue = "";
   let huerotateValue = "";

@@ -9,6 +9,8 @@ import intelligence from "../../../assets/SPECIAL/intelligence.gif";
 import agility from "../../../assets/SPECIAL/agility.gif";
 import luck from "../../../assets/SPECIAL/luck.gif";
 
+import vaultboy from "../../../assets/vaultboy.gif";
+
 function Special() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -35,12 +37,12 @@ function Special() {
         <div className="special-left-side">
         <ul>
             <li onClick={() => handleLiClick(strength)} className={activeTab === strength ? "special-active-tab" : ""}>Strength <span className="specialValue">10</span></li> 
-            <li onClick={() => handleLiClick(perception)} className={activeTab === perception ? "special-active-tab" : ""}>Perception <span className="specialValue">10</span></li>
-            <li onClick={() => handleLiClick(endurance)} className={activeTab === endurance ? "special-active-tab" : ""}>Endurance <span className="specialValue">10</span></li>
-            <li onClick={() => handleLiClick(charisma)} className={activeTab === charisma ? "special-active-tab" : ""}>Charisma <span className="specialValue">10</span></li>
-            <li onClick={() => handleLiClick(intelligence)} className={activeTab === intelligence ? "special-active-tab" : ""}>Intelligence <span className="specialValue">10</span></li>
-            <li onClick={() => handleLiClick(agility)} className={activeTab === agility ? "special-active-tab" : ""}>Agility <span className="specialValue">10</span></li>
-            <li onClick={() => handleLiClick(luck)} className={activeTab === luck ? "special-active-tab" : ""}>Luck <span className="specialValue">10</span></li>
+            <li onClick={() => handleLiClick(perception)} className={activeTab === perception ? "special-active-tab" : ""}>Perception <span className="specialValue">8</span></li>
+            <li onClick={() => handleLiClick(endurance)} className={activeTab === endurance ? "special-active-tab" : ""}>Endurance <span className="specialValue">11</span></li>
+            <li onClick={() => handleLiClick(charisma)} className={activeTab === charisma ? "special-active-tab" : ""}>Charisma <span className="specialValue">7</span></li>
+            <li onClick={() => handleLiClick(intelligence)} className={activeTab === intelligence ? "special-active-tab" : ""}>Intelligence <span className="specialValue">8</span></li>
+            <li onClick={() => handleLiClick(agility)} className={activeTab === agility ? "special-active-tab" : ""}>Agility <span className="specialValue">8</span></li>
+            <li onClick={() => handleLiClick(luck)} className={activeTab === luck ? "special-active-tab" : ""}>Luck <span className="specialValue">6</span></li>
           </ul>
         </div>
 
@@ -52,7 +54,10 @@ function Special() {
               <p>{imageTexts[selectedImage.split("/").pop().split(".")[0]]}</p>
             </>
           ) : (
-            <div></div>
+            <>
+            <div> <img src={vaultboy} alt="vaultboy marchant" /> </div>
+            <p> Selectionnez une stat sur la gauche !</p>
+            </>
           )}
         </div>
       </div>
