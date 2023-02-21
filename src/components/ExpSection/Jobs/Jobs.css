@@ -1,4 +1,4 @@
-.special-container {
+.jobs-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -7,35 +7,37 @@
     padding-top: 10%;
 }
 
-.special-left-side {
+.jobs-left-side {
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 80%;
 }
 
-.special-right-side {
+.jobs-right-side {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.special-left-side li:hover{
+.jobs-left-side li:hover{
     cursor: pointer;
     color: var(--secondary-color);
     background-color: var(--main-color);
 }
 
-.special-left-side li{
+.jobs-left-side li{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.special-active-tab
+.jobs-active-tab
 {
     color: var(--secondary-color);
     background-color: var(--main-color);
+    padding-left: 8%;
+    width: 80%;
 }
 
-.special-right-side p{
+.jobs-right-side p{
     font-size: calc(0.2rem + 1vw);
 }

@@ -50,7 +50,6 @@ function Special() {
           {selectedImage ? (
             <>
               <img src={selectedImage} alt="représentant la sélection" />
-              {/* thanks chatgpt for : */}
               <p>{imageTexts[selectedImage.split("/").pop().split(".")[0]]}</p>
             </>
           ) : (

@@ -1,0 +1,26 @@
+/* Sous tab exp ECRAN */
+.sous-tabs-stat-exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sous-tabs-stat-exp li {
+    font-size: 100%;
+    color: var(--main-color);
+}
+
+.sous-tabs-stat-exp li:hover {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+.sous-tabs-stat-active-exp li::before {
+    content: '[';
+}
+
+.sous-tabs-stat-active-exp li::after {
+    content: ']';
+}

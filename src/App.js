@@ -16,6 +16,8 @@ import { useCallback } from "react";
 
 import SpecialScreen from "./screens/SpecialScreen/SpecialScreen";
 import PerksScreen from "./screens/PerksScreen/PerksScreen";
+import ExpScreen from "./screens/ExpScreen/ExpScreen";
+import DiplomesScreen from "./screens/DiplomesScreen/DiplomesScreen";
 
 function App() {
 
@@ -123,9 +125,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <About />  } />
+
           <Route path="/stat/status" element={ <Stat tab_selected="status"/>  } />
           <Route path="/stat/special" element={ <SpecialScreen tab_selected="status"/>  } />
           <Route path="/stat/perks" element={ <PerksScreen tab_selected="status"/>  } />
+
+          <Route path="/exp/jobs" element={ <ExpScreen tab_selected="status"/>  } />
+          <Route path="/exp/diplomes" element={ <DiplomesScreen tab_selected="status"/>  } />
 
           <Route path="/map" element={ <Map />  } />
           <Route path="/color" element={ <Color onColorChange1={handleColorChange1} onColorChange2={handleColorChange2} onColorChange3={handleColorChange3}/>  } />

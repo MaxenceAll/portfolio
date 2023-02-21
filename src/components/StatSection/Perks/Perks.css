@@ -10,7 +10,7 @@
 .perks-left-side {
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
-    width: 80%;
+    width: 50%;
 }
 
 .perks-right-side {
@@ -33,4 +33,12 @@
 {
     color: var(--secondary-color);
     background-color: var(--main-color);
+}
+
+.perks-right-side img{
+    width: 120px;
+    aspect-ratio: 2/3;
+}
+.perks-right-side p{
+    font-size: calc(0.2rem + 1vw);
 }

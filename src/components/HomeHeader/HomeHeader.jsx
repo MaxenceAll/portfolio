@@ -18,7 +18,7 @@ function HomeHeader() {
           </NavLink>
 
           <NavLink 
-          to="/exp"
+          to="/exp/jobs"
           className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
             <li>

@@ -1,4 +1,4 @@
-.special-container {
+.diplomes-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -7,35 +7,36 @@
     padding-top: 10%;
 }
 
-.special-left-side {
+.diplomes-left-side {
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
-    width: 80%;
+    width: 70%;    
 }
 
-.special-right-side {
+.diplomes-right-side {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.special-left-side li:hover{
+.diplomes-left-side li:hover{
     cursor: pointer;
     color: var(--secondary-color);
     background-color: var(--main-color);
 }
 
-.special-left-side li{
+.diplomes-left-side li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    font-size: calc(0.2rem + 1vw);
 }
 
-.special-active-tab
+.diplomes-active-tab
 {
     color: var(--secondary-color);
     background-color: var(--main-color);
+
 }
 
-.special-right-side p{
-    font-size: calc(0.2rem + 1vw);
+.diplomes-right-side p{
+    font-size: calc(0.4rem + 1vw);
 }
