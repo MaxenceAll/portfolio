@@ -2,9 +2,9 @@ import { useState } from "react";
 
 import "./Diplomes.css";
 
-import eic from "../../../assets/Diplomes/EIC.png";
-import iris from "../../../assets/Diplomes/JeanRostand.png";
-import cda from "../../../assets/Diplomes/afpa.png";
+import eic from "../../../assets/Diplomes/eic.png";
+import iris from "../../../assets/Diplomes/iris.png";
+import afpa from "../../../assets/Diplomes/afpa.png";
 
 import vaultdiploma from "../../../assets/Diplomes/vaultdiploma.webp"
 
@@ -22,8 +22,7 @@ function Diplomes() {
   const imageTexts = {
     "eic":  "Baccalauréat sciences et technologies industrielles en génie électrotechnique - obtenu avec mention Assez-Bien.",
     "iris": "BTS Informatique et Réseaux pour l'Industrie et les Services Techniques, première année validée avec succès, malheureusement, il n'aura pas été possible pour moi de finir ce cursus de 2 ans.",
-    "cda":  "Certification a passer le XXX"
-
+    "afpa":  "Certification a passer le XXX"
   };
 
   return (
@@ -31,9 +30,9 @@ function Diplomes() {
       <div className="diplomes-container">
         <div className="diplomes-left-side">
           <ul>
-              <li onClick={() => handleLiClick(cda)} className={activeTab === cda ? "diplomes-active-tab" : ""}>Formation CDA <span className="diplomesValue"> ✔ 2022-2023</span></li> 
+              <li onClick={() => handleLiClick(afpa)} className={activeTab === afpa ? "diplomes-active-tab" : ""}>Formation CDA <span className="diplomesValue">2022-2023</span></li> 
               <li onClick={() => handleLiClick(iris)} className={activeTab === iris ? "diplomes-active-tab" : ""}>BTS I.R.I.S. <span className="diplomesValue">2007-2008</span></li> 
-              <li onClick={() => handleLiClick(eic)} className={activeTab === eic ? "diplomes-active-tab" : ""}>BAC S.T.I. <span className="diplomesValue">✔ 2006-2007</span></li> 
+              <li onClick={() => handleLiClick(eic)} className={activeTab === eic ? "diplomes-active-tab" : ""}>BAC S.T.I. <span className="diplomesValue">2006-2007</span></li> 
           </ul>
         </div>
 

@@ -23,13 +23,13 @@ function DiplomesScreen(props) {
             <HomeHeader />   
           </div>
 
-          <div className="statMiddleContainer">
+          <div className="expMiddleContainer">
 
-            <div className="statSousTab">
+            <div className="expSousTab">
                 <SousTabExp/>
             </div>
             
-            <div className="StatSpecial">
+            <div className="ExpDiplome">
                 <Diplomes />
             </div>
         </div>
