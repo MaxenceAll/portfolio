@@ -21,6 +21,12 @@ function HomeFooter() {
         <div className="ap-container">
           <p>AP: 9001/9001</p>
         </div>
+
+        <div className="radio-container">
+
+         + -
+
+        </div>
         
       </footer>
     </>

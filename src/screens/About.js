@@ -12,15 +12,20 @@ function Home() {
       <div className="container">
         <div className="ecran radial-gradient">
 
-            <HomeHeader />
+        <div className="ecran-header">
+            <HomeHeader />   
+          </div>
 
             <div className="About-content">
               <p>  
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, dolor? Fugit odit hic esse, possimus et reprehenderit dolor explicabo ea facilis, doloremque earum tempora, placeat optio iusto ratione consequuntur ex aspernatur aperiam. Accusantium temporibus sunt omnis amet dignissimos consectetur molestias quidem odit quam atque provident, dolores error saepe laboriosam odio perspiciatis consequatur facere beatae, voluptatem deserunt laborum repudiandae. Ducimus odit harum possimus dolorem. Dolorum libero atque velit aspernatur nesciunt cum veniam et hic incidunt harum, voluptatibus totam repellat. Nobis, alias!
+              Bienvenue sur mon site, blablablabla, explication de la référence, explication situation bla bla bla   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil blanditiis minima possimus obcaecati hic, ea porro quos id aliquid soluta earum unde voluptates at sit magnam architecto suscipit, reprehenderit voluptatibus totam aliquam quia omnis corrupti illo ex! Unde blanditiis amet, quae sint laboriosam dolor tenetur.
               </p>
+              <div>Cliquez ici pour commencer !</div>
             </div>
 
+            <div className="ecran-footer">
             <HomeFooter />
+          </div>
 
 
         </div>

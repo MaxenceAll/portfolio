@@ -40,7 +40,7 @@ function Jobs() {
           ) : (
             <>
             <div> <img src={vaultboy} alt="vaultboy pouce levé" /> </div>
-            <p> Ici mon expérience professionnelle.</p>
+            <p> Mon exp professionnelle.</p>
             </>
           )}
         </div>

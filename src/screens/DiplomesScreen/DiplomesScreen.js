@@ -34,7 +34,7 @@ function DiplomesScreen(props) {
             </div>
         </div>
 
-          <div className="ecran-footer">
+          <div className="">
             <HomeFooter />
           </div>
         </div>

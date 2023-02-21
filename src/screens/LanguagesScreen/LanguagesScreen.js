@@ -1,12 +1,13 @@
-import Jobs from "../../components/ExpSection/Jobs/Jobs";
+import Diplomes from "../../components/ExpSection/Diplomes/Diplomes";
+import Languages from "../../components/ExpSection/Languages/Languages";
 import HomeFooter from "../../components/HomeFooter/HomeFooter";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
 import SousTabExp from "../../components/SousTabExp/SousTabExp";
 
 
-import './ExpScreen.css'
+import './LanguagesScreen.css'
 
-function ExpScreen(props) {
+function LanguagesScreen(props) {
 
 
 
@@ -23,14 +24,14 @@ function ExpScreen(props) {
             <HomeHeader />   
           </div>
 
-          <div className="statMiddleContainer">
+          <div className="expMiddleContainer">
 
-            <div className="statSousTab">
+            <div className="expSousTab">
                 <SousTabExp/>
             </div>
             
-            <div className="StatSpecial">
-                <Jobs />
+            <div className="ExpLanguage">
+                <Languages />
             </div>
         </div>
 
@@ -44,4 +45,4 @@ function ExpScreen(props) {
   );
 }
 
-export default ExpScreen;
+export default LanguagesScreen;

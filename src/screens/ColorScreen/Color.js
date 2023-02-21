@@ -32,7 +32,7 @@ function Color(props) {
           <div className="ecran-section">
             <ColorMiddle onColorChange1={handleColorChange1} onColorChange2={handleColorChange2} onColorChange3={handleColorChange3}/> 
           </div>
-          <div className="ecran-footer">
+          <div className="">
             <HomeFooter />
           </div>
         </div>

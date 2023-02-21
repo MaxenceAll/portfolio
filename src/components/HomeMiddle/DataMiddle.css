@@ -1,4 +1,4 @@
-.jobs-container {
+.data-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -7,37 +7,43 @@
     padding-top: 5%;
 }
 
-.jobs-left-side {
+.data-left-side {
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 80%;
 }
 
-.jobs-right-side {
+.data-right-side {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.jobs-left-side li:hover{
+.data-left-side li:hover{
     cursor: pointer;
     color: var(--secondary-color);
     background-color: var(--main-color);
 }
 
-.jobs-left-side li{
+.data-left-side li{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.jobs-active-tab
+.data-active-tab
 {
     color: var(--secondary-color);
     background-color: var(--main-color);
-    padding-left: 8%;
-    width: 80%;
 }
 
-.jobs-right-side p{
+.data-right-side p{
     font-size: calc(0.2rem + 1vw);
+}
+
+.vaultboycoding img{
+    width: 50%;
+}
+
+.data-right-side a {
+    color: inherit;
 }

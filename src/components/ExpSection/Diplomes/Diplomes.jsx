@@ -4,6 +4,7 @@ import "./Diplomes.css";
 
 import eic from "../../../assets/Diplomes/eic.png";
 import iris from "../../../assets/Diplomes/iris.png";
+//TODO change this png size
 import afpa from "../../../assets/Diplomes/afpa.png";
 
 import vaultdiploma from "../../../assets/Diplomes/vaultdiploma.webp"
@@ -21,8 +22,8 @@ function Diplomes() {
 
   const imageTexts = {
     "eic":  "Baccalauréat sciences et technologies industrielles en génie électrotechnique - obtenu avec mention Assez-Bien.",
-    "iris": "BTS Informatique et Réseaux pour l'Industrie et les Services Techniques, première année validée avec succès, malheureusement, il n'aura pas été possible pour moi de finir ce cursus de 2 ans.",
-    "afpa":  "Certification a passer le XXX"
+    "afpa": "Certification a passer le XXX",
+    "iris": "BTS Informatique et Réseaux pour l'Industrie et les Services Techniques, première année validée avec succès, malheureusement, il n'aura pas été possible pour moi de finir ce cursus de 2 ans."
   };
 
   return (

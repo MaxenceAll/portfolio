@@ -1,12 +1,11 @@
 import HomeFooter from "../../components/HomeFooter/HomeFooter";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
-import HomeMiddle from "../../components/HomeMiddle/HomeMiddle";
+import DataMiddle from "../../components/HomeMiddle/DataMiddle";
 
 
-import './Stat.css'
+import './DataScreen.css'
 
-function Stat(props) {
-
+function DataScreen() {
 
 
   return (
@@ -18,14 +17,11 @@ function Stat(props) {
 
         <div className="ecran radial-gradient">
 
-          <div className="ecran-header">
+          <div className="">
             <HomeHeader />   
           </div>
-
-          <div className="statMiddleContainer">
-            <div className="ecran-section">
-              <HomeMiddle />
-            </div>
+          <div className="">
+            <DataMiddle />
           </div>
           <div className="">
             <HomeFooter />
@@ -37,4 +33,4 @@ function Stat(props) {
   );
 }
 
-export default Stat;
+export default DataScreen;

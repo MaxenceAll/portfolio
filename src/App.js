@@ -18,6 +18,8 @@ import SpecialScreen from "./screens/SpecialScreen/SpecialScreen";
 import PerksScreen from "./screens/PerksScreen/PerksScreen";
 import ExpScreen from "./screens/ExpScreen/ExpScreen";
 import DiplomesScreen from "./screens/DiplomesScreen/DiplomesScreen";
+import LanguagesScreen from "./screens/LanguagesScreen/LanguagesScreen";
+import DataScreen from "./screens/DataScreen/DataScreen";
 
 function App() {
 
@@ -132,8 +134,12 @@ function App() {
 
           <Route path="/exp/jobs" element={ <ExpScreen tab_selected="status"/>  } />
           <Route path="/exp/diplomes" element={ <DiplomesScreen tab_selected="status"/>  } />
+          <Route path="/exp/languages" element={ <LanguagesScreen tab_selected="status"/>  } />
+
+          <Route path="/data" element={ <DataScreen tab_selected="status"/>  } />
 
           <Route path="/map" element={ <Map />  } />
+          
           <Route path="/color" element={ <Color onColorChange1={handleColorChange1} onColorChange2={handleColorChange2} onColorChange3={handleColorChange3}/>  } />
         
           <Route path="/about" element={  <About /> } />         

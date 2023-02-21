@@ -1,16 +1,14 @@
 /* FOOTER ECRAN */
-.ecran-footer {
-    font-size: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-
-}
 
 .ecran-footer > div {
     background-color: var(--secondary-color);
+}
 
+.ecran-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(1rem+1vw);
 }
 
 /* LEVEL UP BAR */
@@ -20,6 +18,7 @@
     align-items: center;
     text-align: center;
     flex-wrap: nowrap;
+    background-color: var(--secondary-color);
 }
 
 .level-bar {
