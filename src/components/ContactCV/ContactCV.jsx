@@ -13,7 +13,7 @@ function ContactCV() {
       }
 
     return ( <>
-
+        <div className='ContactCV'>
             <div className="HomeMiddleFooter">
                 <NavLink to="/cv" className="LienversCV">
                         <p>ALLART Maxence : Concepteur Developpeur d'Application</p>
@@ -21,7 +21,7 @@ function ContactCV() {
                 </NavLink>
             </div>
                         <p className="mail-me" onClick={handleClick}>Contact : maxence.allart@gmail.com  <HiMail /></p>
-
+        </div>
     </> );
 }
 

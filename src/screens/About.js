@@ -3,6 +3,7 @@ import HomeHeader from "../components/HomeHeader/HomeHeader";
 
 import './About.css'
 import RadioPlayer from "../components/RadioPlayer/RadioPlayer";
+import ContactCV from "../components/ContactCV/ContactCV";
 
 function Home() {
 
@@ -65,11 +66,12 @@ function Home() {
                 Ps: comme dans le jeu video, il est possible d'écouter la radio ! Ici un petit bouton en bas à droite permet d'écouter cette radio. (en cours d'amélioration).
               </div>
 
-              <div>
-                
-              </div>
-
             </div>
+
+            <div className="ContactCV">
+              <ContactCV/>
+            </div>
+
 
             <div className="">
               <HomeFooter />
