@@ -1,7 +1,20 @@
 .About-content{
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95.7%;
+    height: 80%;
+    font-size: calc(0.4rem + 0.5vw);
+    padding: 2%;
+    flex-wrap: wrap;
+    text-align: start;
+}
+.About-content div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    text-align: center;
 }

@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
 import Stat from "./screens/StatScreen/Stat";
 import About from "./screens/About";
 
@@ -24,7 +23,6 @@ import PageNotFoundScreen from "./screens/PageNotFoundScreen/PageNotFoundScreen"
 
 
 function App() {
-
 
   // Effet d'écran
   useEffect(() => {
@@ -51,13 +49,10 @@ function App() {
   }
 }, []);
 
-
   const [selectedColor, setSelectedColor] = useState("#18dc0c");
   const [selectedColorSecondary, setSelectedColorSecondary] = useState("#11291b");
   const [selectedColorBackground, setSelectedColorBackground] = useState("#10170f");
 
-
-  // prevent unnecessary re-renders: (usecallback)
   const handleColorChange1 = useCallback((selectedColor) => {
     setSelectedColor(selectedColor);
   }, []);
@@ -150,6 +145,7 @@ function App() {
 
             {/* Si aucune route connue : */}
             <Route path="*" element={<PageNotFoundScreen />} />
+
           </Routes>
         </BrowserRouter>
 
@@ -162,8 +158,6 @@ function App() {
           }
         `}
       </style>
-
-      
 
       <style>
         {`
@@ -195,9 +189,7 @@ function App() {
         }
         
         `}        
-      </style>
-
-      
+      </style>      
     </>
   );
 }

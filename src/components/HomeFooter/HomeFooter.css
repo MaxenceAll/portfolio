@@ -10,6 +10,10 @@
     justify-content: space-between;
     font-size: calc(1rem+1vw);
 }
+.radio-container > div{
+    cursor: pointer;
+            
+}
 
 /* LEVEL UP BAR */
 .level-container {
