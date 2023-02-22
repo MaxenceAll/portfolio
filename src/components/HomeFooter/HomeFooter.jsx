@@ -1,3 +1,4 @@
+import RadioPlayer from "../RadioPlayer/RadioPlayer";
 import "./HomeFooter.css";
 
 function HomeFooter() {
@@ -6,7 +7,7 @@ function HomeFooter() {
       <footer className="ecran-footer">
 
         <div className="hp-container">
-          <p>HP: 1337/1337</p>
+          <p>HP: 34/100</p>
         </div>
         
 
@@ -19,13 +20,11 @@ function HomeFooter() {
 
 
         <div className="ap-container">
-          <p>AP: 9001/9001</p>
+          <p>AP: 100/100</p>
         </div>
 
         <div className="radio-container">
-
-         + -
-
+          <RadioPlayer videoId="Ya3WXzEBL1E" />
         </div>
         
       </footer>

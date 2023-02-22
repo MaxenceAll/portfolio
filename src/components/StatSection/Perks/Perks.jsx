@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Perks.css";
 
 import curieux from "../../../assets/Perks/curieux.png";
-import teamwork from "../../../assets/Perks/teamwork2.png";
+import teamwork from "../../../assets/Perks/teamwork.png";
 import logique from "../../../assets/Perks/logique.png";
 import management from "../../../assets/Perks/management.png";
 import autonomie from "../../../assets/Perks/autonomie.webp";

@@ -20,6 +20,8 @@ import ExpScreen from "./screens/ExpScreen/ExpScreen";
 import DiplomesScreen from "./screens/DiplomesScreen/DiplomesScreen";
 import LanguagesScreen from "./screens/LanguagesScreen/LanguagesScreen";
 import DataScreen from "./screens/DataScreen/DataScreen";
+import RadioPlayer from "./components/RadioPlayer/RadioPlayer";
+
 
 function App() {
 
@@ -124,32 +126,32 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={ <About />  } />
+        <BrowserRouter>          
+          <Routes>
+            <Route path="/" element={ <About />  } />
 
-          <Route path="/stat/status" element={ <Stat tab_selected="status"/>  } />
-          <Route path="/stat/special" element={ <SpecialScreen tab_selected="status"/>  } />
-          <Route path="/stat/perks" element={ <PerksScreen tab_selected="status"/>  } />
+            <Route path="/stat/status" element={ <Stat tab_selected="status"/>  } />
+            <Route path="/stat/special" element={ <SpecialScreen tab_selected="status"/>  } />
+            <Route path="/stat/perks" element={ <PerksScreen tab_selected="status"/>  } />
 
-          <Route path="/exp/jobs" element={ <ExpScreen tab_selected="status"/>  } />
-          <Route path="/exp/diplomes" element={ <DiplomesScreen tab_selected="status"/>  } />
-          <Route path="/exp/languages" element={ <LanguagesScreen tab_selected="status"/>  } />
+            <Route path="/exp/jobs" element={ <ExpScreen tab_selected="status"/>  } />
+            <Route path="/exp/diplomes" element={ <DiplomesScreen tab_selected="status"/>  } />
+            <Route path="/exp/languages" element={ <LanguagesScreen tab_selected="status"/>  } />
 
-          <Route path="/data" element={ <DataScreen tab_selected="status"/>  } />
+            <Route path="/data" element={ <DataScreen tab_selected="status"/>  } />
 
-          <Route path="/map" element={ <Map />  } />
+            <Route path="/map" element={ <Map />  } />
+            
+            <Route path="/color" element={ <Color onColorChange1={handleColorChange1} onColorChange2={handleColorChange2} onColorChange3={handleColorChange3}/>  } />
           
-          <Route path="/color" element={ <Color onColorChange1={handleColorChange1} onColorChange2={handleColorChange2} onColorChange3={handleColorChange3}/>  } />
-        
-          <Route path="/about" element={  <About /> } />         
-          <Route path="/cv" element={ <CVscreen/> }/>
+            <Route path="/about" element={  <About /> } />         
+            <Route path="/cv" element={ <CVscreen/> }/>
 
 
-          {/* Si aucune route connue : */}
-          <Route path="*" element={<About />} />
-        </Routes>
-      </BrowserRouter>
+            {/* Si aucune route connue : */}
+            <Route path="*" element={<About />} />
+          </Routes>
+        </BrowserRouter>
 
       <style>
         {`

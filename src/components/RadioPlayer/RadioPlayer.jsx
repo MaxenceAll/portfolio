@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { FaPlay, FaStop } from "react-icons/fa";
 
 const RadioPlayer = ({ videoId }) => {
     
@@ -12,11 +13,11 @@ const RadioPlayer = ({ videoId }) => {
       width: '0',
       videoId: videoId,
       playerVars: {
-        autoplay: 0,
-        controls: 0,
+        autoplay: 1,
+        controls: 1,
         showinfo: 0,
         loop: 1,
-        mute: 1,
+        mute: 0,
       },
       events: {
         onReady: () => {
@@ -55,12 +56,15 @@ const RadioPlayer = ({ videoId }) => {
   return (
     <div>
       <div id="youtube-player"></div>
-      <button onClick={handlePlay} disabled={isPlaying}>
-        PLAY
-      </button>
-      <button onClick={handleStop} disabled={!isPlaying}>
-        STOP
-      </button>
+      {isPlaying ? (
+        <div onClick={handleStop}>
+          <FaStop />
+        </div>
+      ) : (
+        <div onClick={handlePlay}>
+          <FaPlay />
+        </div>
+      )}
     </div>
   );
 };
