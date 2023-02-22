@@ -28,11 +28,11 @@ function Perks() {
     "teamwork": "Mon expérience professionel a fait que cet aspect essentiel en tant que dev. soit maitrisé.",
     "curieux": "Constamment curieux pour apprendre et innover, et résoudre les problèmes complexes grâce à une exploration constante de nouvelles technologies et méthodologies de développement.",    
     "logique": "Essentiel pour résoudre des problèmes complexes en utilisant une pensée claire, structurée et rationnelle.",
-    "management": "J'ai pu dans mon expérience précédente ...",
-    "autonomie" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio similique omnis quos molestias, aliquid voluptatem.",
+    "management": "J'ai pu dans mon expérience précédente être formé en tant que Manager et j'ai même pu être responsable des résultats en tant que 'real-time analyst'.",
+    "autonomie" : "Ne pose jamais de question avant d'avoir parse la totalité de StackOverflow et avant d'avoir épuisé CHATgpt !",
     "rigoureux" : "rigoureux description",
-    "adaptabilite": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem, optio non ab ullam consequatur.",
-    "analytique" : "analytique descrip"
+    "adaptabilite": "Ayant commencé sur du C, puis du C++ et maintenant du C#, je dirai que mon adaptabilité C'est du Costaud.",
+    "analytique" : "Un problème ? Je m'attaque aux problèmes comme un écureuil attaquant une noisette, les décomposant en tout petits morceaux et scrutant chaque dernier détail."
   };
 
   return (

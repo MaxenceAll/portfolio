@@ -6,11 +6,31 @@
     grid-row-gap: 0px;
     padding-top: 10%;
 }
+@media only screen and (max-width: 700px)  {
+    .special-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .special-right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+  }
 
 .special-left-side {
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 80%;
+}
+@media only screen and (max-width: 700px)  {
+    .special-left-side {
+        padding-left: 0%;
+    }
 }
 
 .special-right-side {
@@ -37,5 +57,5 @@
 }
 
 .special-right-side p{
-    font-size: calc(0.2rem + 1vw);
+    font-size: calc(0.3rem + 1vw);
 }

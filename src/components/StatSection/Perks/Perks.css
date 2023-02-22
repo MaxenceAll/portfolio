@@ -7,10 +7,31 @@
     padding-top: 10%;
 }
 
+@media only screen and (max-width: 700px)  {
+    .perks-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .perks-right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+  }
+
 .perks-left-side {
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 50%;
+}
+@media only screen and (max-width: 700px)  {
+    .perks-left-side {
+        padding-left: 0%;
+    }
 }
 
 .perks-right-side {
@@ -20,6 +41,7 @@
 .perks-left-side li:hover{
     color: var(--secondary-color);
     background-color: var(--main-color);
+    cursor: pointer;
 }
 
 .perks-left-side li{
@@ -36,7 +58,7 @@
 }
 
 .perks-right-side img{
-    width: 120px;
+    width: 150px;
     aspect-ratio: 2/3;
 }
 .perks-right-side p{

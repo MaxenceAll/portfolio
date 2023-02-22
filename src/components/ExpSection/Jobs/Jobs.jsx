@@ -5,6 +5,7 @@ import "./Jobs.css";
 import sitel from "../../../assets/Jobs/sitel.webp";
 
 import vaultboy from "../../../assets/Jobs/vaultboypouce.png"
+import ContactCV from "../../ContactCV/ContactCV";
 
 
 function Jobs() {
@@ -40,11 +41,13 @@ function Jobs() {
           ) : (
             <>
             <div> <img src={vaultboy} alt="vaultboy pouce levé" /> </div>
-            <p> Mon exp professionnelle.</p>
+            <p>Bientôt votre entreprise dans la liste.</p>
             </>
           )}
         </div>
+
       </div>
+        <ContactCV/>
     </>
   );
 }

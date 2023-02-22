@@ -26,9 +26,9 @@ function Special() {
     perception: "Capable de débusquer les () ou les {} mal placés avant même de les taper !.",
     endurance: "10h de code par jour ? No problemo .... avec 10 redbull par heure.",
     charisma: "Lunettes geeks CHECK. Barbe geek CHECK. Chemise à carreaux geek CHECK.",
-    intelligence: "Suffisamment intélligent pour demander à CHATgpt et relativement comprendre la réponse.",
-    agility: "L'agilité ? C'est débrouissailler du code déprécié, explorer les nouveaux frameworks, avec rien d'autre que son fidèle IDEs dopé d'extensions. Et tout comme un survivaliste, toujours avoir un plan de secours (un dépôt GitHub).",
-    luck: "Pas besoin de chance quand on trafique le Math.random().",
+    intelligence: "Suffisamment intélligent pour demander à CHATgpt et comprendre la réponse.",
+    agility: "L'agilité ? C'est débrouissailler du code déprécié, explorer les nouveaux frameworks, avec rien d'autre que son fidèle IDEs dopé d'extensions. Et tout comme un survivaliste, toujours avoir un plan de secours (un dépôt GitHub). Mais c'est aussi une méthode de gestion de projet !",
+    luck: "Pas besoin de chance quand on trafique le Math.random()  qui n'est même pas un true random !",
   };
 
   return (

@@ -6,11 +6,32 @@
     grid-row-gap: 0px;
     padding-top: 5%;
 }
+@media only screen and (max-width: 700px)  {
+    .data-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .data-right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+  }
+
 
 .data-left-side {
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 80%;
+}
+@media only screen and (max-width: 700px)  {
+    .data-left-side {
+        padding-left: 0%;
+    }
 }
 
 .data-right-side {
@@ -37,7 +58,7 @@
 }
 
 .data-right-side p{
-    font-size: calc(0.2rem + 1vw);
+    /* font-size: calc(0.2rem + 1vw); */
 }
 
 .vaultboycoding img{
