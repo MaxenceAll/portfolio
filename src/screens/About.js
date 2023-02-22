@@ -2,7 +2,6 @@ import HomeFooter from "../components/HomeFooter/HomeFooter";
 import HomeHeader from "../components/HomeHeader/HomeHeader";
 
 import './About.css'
-import RadioPlayer from "../components/RadioPlayer/RadioPlayer";
 import ContactCV from "../components/ContactCV/ContactCV";
 
 function Home() {
@@ -20,15 +19,14 @@ function Home() {
             <HomeHeader />   
           </div>
 
-            <div className="About-content">
-            <div>
+          <div className="About-content">
               <div>
                 Bonjour et bienvenue sur mon portfolio !
                 Je suis ALLART Maxence,
                 actuellement en formation pour préparer le titre "Concepteur développer d'application",
                 titre reconnu par l'état, bac+4.
               </div> 
-            </div>
+
 
               <div>
                 Je suis en pleine reconversion professionnelle,
@@ -69,16 +67,17 @@ function Home() {
             </div>
 
             <div className="ContactCV">
+            <div className="">
+              <HomeFooter />
+            </div>
               <ContactCV/>
             </div>
 
 
-            <div className="">
-              <HomeFooter />
-            </div>
 
 
         </div>
+
       </div>
     </>
   );

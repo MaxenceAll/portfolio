@@ -4,3 +4,16 @@
     flex-direction: column;
     align-items: center;
 }
+
+.notfound-container img {
+    animation: slide 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(-50px) scaleX(1);
+    }
+    to {
+      transform: translateX(50px) scaleX(-1);
+    }
+  }
