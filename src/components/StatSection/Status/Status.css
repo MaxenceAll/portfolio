@@ -20,7 +20,7 @@
   align-items: center;
 }
 .animated-gif {
-  width: 8rem;
+  width: calc(2.5rem + 5vw);
   height: auto;
 }
 
@@ -68,8 +68,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  gap: 2rem,;
+  font-size: calc(1rem + 1vw);
+  gap: calc(1rem + 1vw);
 }
 
 .StatusFooter-container li {
@@ -80,7 +80,7 @@
 
 .hp-bar {
   height: 1rem;
-  width: 5rem;
+  width: calc(1rem + 5vw);
   border: solid 2px var(--main-color);
   text-align: center;
 }
@@ -98,7 +98,9 @@
   background-color: var(--main-color);
   width: 75%;
 }
-
+.StatusFooter-text{
+  font-size: calc(0.1rem + 1vw);
+}
 
 /* *{
   border: solid 1px pink;

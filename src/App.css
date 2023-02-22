@@ -132,11 +132,14 @@
 .ecran {
   overflow: hidden;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 10% 80% 5%;
   /* taille écran du pipboy */
+  width: 70vw;
+  /* max-width: 640px; */
+
   height: 70%;
-  width: 70%;
-  /* max-width: 1000px; */
+  /* max-height: 880px; */
+
   border: solid 2px var(--secondary-color);
   border-radius: 2%;
   z-index: 1;

@@ -11,6 +11,7 @@
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 80%;
+    font-size: calc(0.2rem + 1vw);
 }
 
 .jobs-right-side {
@@ -40,4 +41,7 @@
 
 .jobs-right-side p{
     font-size: calc(0.2rem + 1vw);
+}
+.jobs-right-side img{
+    width: calc(10rem + 10vw);
 }

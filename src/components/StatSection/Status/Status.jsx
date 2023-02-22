@@ -56,7 +56,11 @@ function Status() {
       </div>
 
       <div className="StatusFooter">
+
         <div className="StatusFooter-container">
+          <div className="StatusFooter-text">
+            Cette page est basée, comme la totalité de ce site du jeu Fallout, cette page présente l'état de santé du personne dans le jeu.
+          </div>
           <ul>
             <li>
               <FaHtml5 />
@@ -75,15 +79,12 @@ function Status() {
             </li>
             <li>
               <SiCsharp />
-            </li>
-            
+            </li>            
           </ul>
 
-          <div className="StatusFooter-text">
-            Description here
-          </div>
 
         </div>
+
       </div>
 
     </div>

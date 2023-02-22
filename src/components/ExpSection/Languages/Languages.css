@@ -11,6 +11,7 @@
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 60%;
+    font-size: calc(0.2rem + 1vw);
 }
 
 .lang-right-side {

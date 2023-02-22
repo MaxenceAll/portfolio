@@ -20,7 +20,6 @@ import ExpScreen from "./screens/ExpScreen/ExpScreen";
 import DiplomesScreen from "./screens/DiplomesScreen/DiplomesScreen";
 import LanguagesScreen from "./screens/LanguagesScreen/LanguagesScreen";
 import DataScreen from "./screens/DataScreen/DataScreen";
-import RadioPlayer from "./components/RadioPlayer/RadioPlayer";
 
 
 function App() {
