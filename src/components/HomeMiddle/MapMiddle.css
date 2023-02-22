@@ -1,10 +1,12 @@
 .MapNord-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 1rem;
     padding-top: 2vw;
+    /* border: 2px solid pink; */
+    height: 95%;
 }
 
 .MapNord-container img {

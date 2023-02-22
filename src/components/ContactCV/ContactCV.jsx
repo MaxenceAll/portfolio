@@ -4,7 +4,6 @@ import { HiMail } from "react-icons/hi";
 import './ContactCV.css'
 
 
-
 function ContactCV() {
 
 
@@ -14,6 +13,7 @@ function ContactCV() {
 
     return ( <>
         <div className='ContactCV'>
+            
             <div className="HomeMiddleFooter">
                 <NavLink to="/cv" className="LienversCV">
                         <p>ALLART Maxence : Concepteur Developpeur d'Application</p>

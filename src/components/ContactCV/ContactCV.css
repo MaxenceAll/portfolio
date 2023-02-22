@@ -1,8 +1,9 @@
 .HomeMiddleFooter{
-    font-size: calc(0.5rem + 0.5vw + 0.5vh);
-    /* font-size: calc(0.2rem + 1vw); */
+    /* font-size: calc(0.1rem + 1.2vw + 1.2vh); */
+    font-size: calc(0.15rem + 1.5vw);
     border-top: 1px solid var(--main-color);
 }
 .mail-me{
     cursor: pointer;
+    font-size: calc(0.15rem + 1.5vw);
 }

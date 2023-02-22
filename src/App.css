@@ -162,7 +162,8 @@
 .ecran {
   overflow: hidden;
   display: grid;
-  grid-template-rows: auto 22fr 1fr;
+  /* grid-template-rows: auto 22fr 1fr; */
+  grid-template-rows: auto 1fr auto;
   /* taille écran du pipboy */
   width: 70vw;
   /* max-width: 1500px; */
@@ -191,6 +192,14 @@
 }
 
 
+.ecran > *:first-child {
+  grid-row: 1;
+}
+
+.ecran > *:last-child {
+  grid-row: 3;
+  background-color: var(--secondary-color);
+}
 
 /* ECRAN effect*/
 .radial-gradient {

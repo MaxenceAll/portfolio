@@ -14,8 +14,9 @@ function MapMiddle() {
                 Disponible sur toute la région Nord.
             </div>
 
-            <ContactCV/>
-
+            <div>
+                <ContactCV/>
+            </div>
         </div>
     
     </>);

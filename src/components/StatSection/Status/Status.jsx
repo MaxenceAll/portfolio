@@ -60,7 +60,7 @@ function Status() {
         <div className="StatusFooter-container">
           <div className="StatusFooter-text">
            <p>
-            Cette page est basée, comme la totalité de ce site du jeu Fallout, cette page présente l'état de santé du personnage dans le jeu.
+            
            </p>
           </div>
           <ul>

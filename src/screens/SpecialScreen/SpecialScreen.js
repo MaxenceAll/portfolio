@@ -34,6 +34,7 @@ function SpecialScreen(props) {
           <div className="ecran-footer">
             <HomeFooter />
           </div>
+          
         </div>
 
       </div>

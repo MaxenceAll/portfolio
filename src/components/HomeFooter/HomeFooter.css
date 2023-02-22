@@ -11,8 +11,7 @@
     font-size: calc(1rem+1vw);
 }
 .radio-container > div{
-    cursor: pointer;
-            
+    cursor: pointer;            
 }
 
 /* LEVEL UP BAR */
