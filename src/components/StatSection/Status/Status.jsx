@@ -12,8 +12,8 @@ function Status() {
       <div className="HpHead">
         <div className="hp-bar">
           <div className="hp-bar-progress">
-          </div>
-          100%
+            <p>100%</p>
+          </div>            
         </div>      
       </div>
 
@@ -26,32 +26,32 @@ function Status() {
       <div className="HpLeftHand">
         <div className="hp-bar">
           <div className="hp-bar-progress">
+          <p>100%</p>
           </div>
-          100%
         </div>
       </div>
 
       <div className="HpRightHand">
         <div className="hp-bar">
           <div className="hp-bar-progress">
+          <p>100%</p>
           </div>
-          100%
         </div>
       </div>
 
       <div className="HpLeftFeet">
         <div className="hp-bar">
           <div className="hp-bar-progress">
+            <p>100%</p>
           </div>
-          100%
         </div>
       </div>
 
       <div className="HpRightFeet">
         <div className="hp-bar">
           <div className="hp-bar-progress-bis">
+            <p>75%</p>
           </div>
-          75%
         </div>
       </div>
 
@@ -59,7 +59,9 @@ function Status() {
 
         <div className="StatusFooter-container">
           <div className="StatusFooter-text">
-            Cette page est basée, comme la totalité de ce site du jeu Fallout, cette page présente l'état de santé du personne dans le jeu.
+           <p>
+            Cette page est basée, comme la totalité de ce site du jeu Fallout, cette page présente l'état de santé du personnage dans le jeu.
+           </p>
           </div>
           <ul>
             <li>

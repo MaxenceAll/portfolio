@@ -23,7 +23,7 @@ function ColorMiddle(props) {
           {
             handleColorOptionClick1("#18dc0c");
             handleColorOptionClick2("#11291b");
-            handleColorOptionClick3("#11291b");
+            handleColorOptionClick3("#10170f");
           }
         }
         >

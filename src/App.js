@@ -20,6 +20,7 @@ import ExpScreen from "./screens/ExpScreen/ExpScreen";
 import DiplomesScreen from "./screens/DiplomesScreen/DiplomesScreen";
 import LanguagesScreen from "./screens/LanguagesScreen/LanguagesScreen";
 import DataScreen from "./screens/DataScreen/DataScreen";
+import PageNotFoundScreen from "./screens/PageNotFoundScreen/PageNotFoundScreen";
 
 
 function App() {
@@ -53,7 +54,7 @@ function App() {
 
   const [selectedColor, setSelectedColor] = useState("#18dc0c");
   const [selectedColorSecondary, setSelectedColorSecondary] = useState("#11291b");
-  const [selectedColorBackground, setSelectedColorBackground] = useState("#11291b");
+  const [selectedColorBackground, setSelectedColorBackground] = useState("#10170f");
 
 
   // prevent unnecessary re-renders: (usecallback)
@@ -70,9 +71,9 @@ function App() {
   }, []);
   
 
-  let brightnessValue = "";
-  let huerotateValue = "";
-  let saturateValue = "";
+  let brightnessValue = "65%";
+  let huerotateValue = "50deg";
+  let saturateValue = "1000%";
 
   switch (selectedColor) {
     // if green:
@@ -144,11 +145,11 @@ function App() {
             <Route path="/color" element={ <Color onColorChange1={handleColorChange1} onColorChange2={handleColorChange2} onColorChange3={handleColorChange3}/>  } />
           
             <Route path="/about" element={  <About /> } />         
-            <Route path="/cv" element={ <CVscreen/> }/>
+            {/* <Route path="/cv" element={ <CVscreen/> }/> */}
 
 
             {/* Si aucune route connue : */}
-            <Route path="*" element={<About />} />
+            <Route path="*" element={<PageNotFoundScreen />} />
           </Routes>
         </BrowserRouter>
 
@@ -196,10 +197,6 @@ function App() {
         `}        
       </style>
 
-      <script>
-
-        
-      </script>
       
     </>
   );

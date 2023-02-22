@@ -1,17 +1,19 @@
-
-
 .StatusContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   align-items: center;
-
 }
+
+/* .StatusContainer > div{
+  border: solid 1px pink;
+} */
 
 .VaultBoy {
   grid-area: 2 / 2 / 5 / 4;
+  padding-top: 2%;
 }
 
 .VaultBoyContainer {
@@ -20,7 +22,7 @@
   align-items: center;
 }
 .animated-gif {
-  width: calc(2.5rem + 5vw);
+  width: calc(5rem + 1vw + 1vh);  
   height: auto;
 }
 
@@ -68,39 +70,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(1rem + 1vw);
-  gap: calc(1rem + 1vw);
+  font-size: calc(2.5rem + 0.5vw);
 }
 
 .StatusFooter-container li {
   background-color: var(--secondary-color);
 }
 
+
+
 /* hp bars: */
 
 .hp-bar {
-  height: 1rem;
-  width: calc(1rem + 5vw);
+  height: 1vh;
+  width: calc(3.5rem + 0.5vw);
   border: solid 2px var(--main-color);
   text-align: center;
 }
 
 .hp-bar-progress {
   content: "";
-  height: 1rem;
+  height: 1vh;
   background-color: var(--main-color);
   width: 100%;
+}
+.hp-bar p{
+  justify-content: center;
+  font-size: calc(0.1rem + 0.1vw + 0.5vh);
+  color: var(--secondary-color);
 }
 
 .hp-bar-progress-bis {
   content: "";
-  height: 1rem;
+  height: 1vh;
   background-color: var(--main-color);
   width: 75%;
 }
+
 .StatusFooter-text{
-  font-size: calc(0.1rem + 1vw);
+  padding-top: 2%;
 }
+.StatusFooter-text  > p {
+  font-size: calc(0.1rem + 0.5vw + 0.5vh);
+}
+
 
 /* *{
   border: solid 1px pink;

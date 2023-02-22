@@ -26,13 +26,8 @@ function Home() {
               <div>Cliquez ici pour commencer !</div>
             </div>
 
-            <div>
-              test radio
-                <RadioPlayer videoId="Ya3WXzEBL1E" />
-            </div>
-
-            <div className="ecran-footer">
-            <HomeFooter />
+            <div className="">
+              <HomeFooter />
             </div>
 
 

@@ -13,7 +13,7 @@ const RadioPlayer = ({ videoId }) => {
       width: '0',
       videoId: videoId,
       playerVars: {
-        autoplay: 1,
+        autoplay: 0,
         controls: 1,
         showinfo: 0,
         loop: 1,

@@ -1,8 +1,6 @@
 import './MapMiddle.css';
 import MapNord from "../../assets/nord.gif";
-
-import { NavLink } from "react-router-dom";
-import { FaDownload } from "react-icons/fa";
+import ContactCV from '../ContactCV/ContactCV';
 
 
 function MapMiddle() {
@@ -16,12 +14,7 @@ function MapMiddle() {
                 Disponible sur toute la région Nord.
             </div>
 
-            <div className="HomeMiddleFooter">
-                <NavLink to="/cv" className="LienversCV">
-                        <p>ALLART Maxence : Concepteur Developpeur d'Application</p>
-                        Télécharger CV :<FaDownload />
-                </NavLink>
-            </div>
+            <ContactCV/>
 
         </div>
     

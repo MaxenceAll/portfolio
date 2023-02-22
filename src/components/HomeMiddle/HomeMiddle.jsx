@@ -1,9 +1,7 @@
-import { NavLink } from "react-router-dom";
-import { FaDownload } from "react-icons/fa";
-
 import './HomeMiddle.css'
 import Status from "../StatSection/Status/Status";
 import SousTabStat from "../SousTabStat/SousTabStat";
+import ContactCV from "../ContactCV/ContactCV";
 
 function HomeMiddle() {
   return (
@@ -18,12 +16,9 @@ function HomeMiddle() {
                <Status />
             </div>
 
-            <div className="HomeMiddleFooter">
-                <NavLink to="/cv" className="LienversCV">
-                        <p>ALLART Maxence : Concepteur Developpeur d'Application</p>
-                        Télécharger CV :<FaDownload />
-                </NavLink>
-            </div>
+            <ContactCV/>
+            
+
         </div>
     </>
   );

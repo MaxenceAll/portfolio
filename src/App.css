@@ -93,6 +93,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    /* IS OVERRIDDED IN APP.JS (for theme color) */
     background-image: linear-gradient(
         0deg,
         transparent 0%,
@@ -102,10 +103,24 @@
         transparent 100%);
     background-repeat: no-repeat;    
     animation: scan 7.5s linear 0s infinite;
-
-    margin: 15vh 14.7vw;
-
+    margin: 15vh 14.0vw;
   }
+  @media only screen and (max-width: 600px)  {
+    .scanbar::before {
+      margin: 15vh 12vw;
+    }
+  }
+  @media only screen and (max-width: 500px)  {
+    .scanbar::before {
+      margin: 15vh 10vw;
+    }
+  }
+  @media only screen and (max-width: 380px)  {
+    .scanbar::before {
+      margin: 15vh 5vw;
+    }
+  }
+
   @keyframes scan {
     0%        { background-position: 0 -100vh; }
     35%, 100% { background-position: 0 100vh; }
@@ -124,7 +139,22 @@
     background-size: cover;
     z-index: 9999;
     opacity: .02;
-    margin: 15vh 14.7vw;
+    margin: 14vh 14.0vw;
+  }
+  @media only screen and (max-width: 600px)  {
+    .noise {
+      margin: 15vh 12vw;
+    }
+  }
+  @media only screen and (max-width: 500px)  {
+    .noise {
+      margin: 15vh 10vw;
+    }
+  }
+  @media only screen and (max-width: 380px)  {
+    .noise {
+      margin: 15vh 5vw;
+    }
   }
   
 
@@ -132,18 +162,32 @@
 .ecran {
   overflow: hidden;
   display: grid;
-  grid-template-rows: 10% 80% 5%;
+  grid-template-rows: auto 22fr 1fr;
   /* taille écran du pipboy */
   width: 70vw;
-  /* max-width: 640px; */
+  /* max-width: 1500px; */
 
   height: 70%;
-  /* max-height: 880px; */
+  /* min-height: 570px;  */
 
   border: solid 2px var(--secondary-color);
   border-radius: 2%;
   z-index: 1;
-
+}
+@media only screen and (max-width: 600px)  {
+  .ecran {
+    width: 75vw;
+  }
+}
+@media only screen and (max-width: 500px)  {
+  .ecran {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 380px)  {
+  .ecran {
+    width: 90vw;
+  }
 }
 
 
