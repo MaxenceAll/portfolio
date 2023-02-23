@@ -30,17 +30,17 @@ function Languages() {
 
   const imageTexts = {
     //TODO fix ces descriptions
-    html: "La base !",
-    css: "Le style !",
-    js: "Le début !",
-    clang: "Mon premier language en BTS, le commencement!",
-    java: "Mon premier language en Formation CDA, le REcommencement !",
-    csharp:"Second language blablabla",
-    react:"First library JS",
-    nodejs:"Première API rest en node.js !",
-    mysql:"Ma première bdd !",
-    dotnetcore: "second language back-end !",
-    mongodb: "Bdd en NOTonly SQL",
+    html: "La base, langage obligatoire et connu depuis bien avant ma première année de BTS. ",
+    css: "L'horreur pour le maitriser mais une fois qu'on le maitrise à minima, tout est plus beau !",
+    js: "Le début des pages web dynamique ! Il a bien changé depuis ma première découverte du langage en 2007... C'est sa force !",
+    clang: "Mon premier language en BTS, le commencement d'une longue aventure ! Parfois on regrette l'époque où il n'y avait pas encore les objets, ou pas !",
+    java: "Mon premier language en Formation CDA, le REcommencement et REdécouverte des bases avec ce langage ! Enervant lorsqu'on rencontre des problèmes de type, mais plus tard on se rend compte que sa non-permissivité est bel et bien un avantage !",
+    csharp:"Langage principal vu en Formation CDA pour la conception d'application desktop 'lourds' !",
+    react:"Découverte de la bibliothèque REACT, qui pourrait se voir comme un framework mais qui n'en est pas un ;-).",
+    nodejs:"Initiation aux API et au back-end via NODE.JS, simple et efficace, comme le java..javaSCRIPT.",
+    mysql:"Ma première base de donnée relationnelle vu en formation, simple et gratuite, parfaite pour apprendre avant de s'attaquer aux autres ! Et aussi surtout pour apprendre le SQL.",
+    dotnetcore: "Second language back-end découvert en formation !",
+    mongodb: "Système de gestion de base de données NoSQL, y'a pas que le SQL dans la vie !",
     sql: "SELECT * connaissances FROM 2007"
   };
 

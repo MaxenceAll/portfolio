@@ -30,7 +30,7 @@ function App() {
     const handleVisibilityChange = () => {
       document.title = document.hidden ? 'Ce CV est mieux!☻' : 'ALLART Maxence';
     };
-    document.addEventListener('visibilitychange', handleVisibilityChange);
+    document.addEventListener('visibilitychange', handleVisibilityChange, { passive: true });
     return () => {
       document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
@@ -53,7 +53,7 @@ function App() {
         elements[i].style.background = radialGradient;
       }
     };
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mousemove', handleMouseMove, { passive: true });
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
@@ -102,7 +102,7 @@ function App() {
       saturateValue = "1000%";
       break;
     // if ice
-    case "#0000ff":
+    case "#ffffff":
       brightnessValue = "90%";
       huerotateValue = "0deg";
       saturateValue = "000%";

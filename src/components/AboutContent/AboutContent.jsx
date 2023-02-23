@@ -4,7 +4,7 @@ import './AboutContent.css'
 function AboutContent() {
     return ( <>
     
-    <div>
+    <div className='aboutcontent-container'>
                 Bonjour et bienvenue sur mon portfolio !
                 Je suis ALLART Maxence,
                 actuellement en formation pour préparer le titre "Concepteur développer d'application",

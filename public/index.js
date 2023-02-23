@@ -1,4 +1,4 @@
-document.addEventListener('mousemove', function(event) {
+document.addEventListener('mousemove', { passive: true } , function(event) {
     let windowWidth = window.innerWidth;
     let windowHeight = window.innerHeight;
   
