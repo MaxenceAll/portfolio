@@ -1,0 +1,11 @@
+.letsgo-about{
+    background-color: var(--secondary-color);
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.letsgo-about:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+}

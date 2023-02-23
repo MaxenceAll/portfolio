@@ -5,7 +5,6 @@ import About from "./screens/About";
 
 import './App.css'
 
-import CVscreen from "./components/CV/CVscreen";
 import Map from "./screens/MapScreen/Map";
 import Color from "./screens/ColorScreen/Color";
 
@@ -23,6 +22,19 @@ import PageNotFoundScreen from "./screens/PageNotFoundScreen/PageNotFoundScreen"
 
 
 function App() {
+
+  //changer le titre si on change de tab ☻
+  // const [title, setTitle] = useState('ALLART Maxence');
+  
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      document.title = document.hidden ? 'Ce CV est mieux!☻' : 'ALLART Maxence';
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
 
   // Effet d'écran
   useEffect(() => {
