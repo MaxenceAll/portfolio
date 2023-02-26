@@ -4,7 +4,6 @@ import "./Diplomes.css";
 
 import eic from "../../../assets/Diplomes/eic.png";
 import iris from "../../../assets/Diplomes/iris.png";
-//TODO change this png size
 import afpa from "../../../assets/Diplomes/afpa.png";
 
 import vaultdiploma from "../../../assets/Diplomes/vaultdiploma.webp"

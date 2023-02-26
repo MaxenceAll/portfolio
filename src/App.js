@@ -135,6 +135,7 @@ function App() {
 
         <BrowserRouter>          
           <Routes>
+
             <Route path="/" element={ <About />  } />
 
             <Route path="/stat/status" element={ <Stat tab_selected="status"/>  } />
@@ -153,7 +154,6 @@ function App() {
           
             <Route path="/about" element={  <About /> } />         
             {/* <Route path="/cv" element={ <CVscreen/> }/> */}
-
 
             {/* Si aucune route connue : */}
             <Route path="*" element={<PageNotFoundScreen />} />

@@ -29,7 +29,6 @@ function Languages() {
   };
 
   const imageTexts = {
-    //TODO fix ces descriptions
     html: "La base, langage obligatoire et connu depuis bien avant ma première année de BTS. ",
     css: "L'horreur pour le maitriser mais une fois qu'on le maitrise à minima, tout est plus beau !",
     js: "Le début des pages web dynamique ! Il a bien changé depuis ma première découverte du langage en 2007... C'est sa force !",

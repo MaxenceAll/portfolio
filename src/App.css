@@ -127,7 +127,6 @@
   }
   /* NOISE EFFECT */
   .noise {
-    /* TODO FIX position */
     pointer-events: none;
     position: absolute;
     top: 0;

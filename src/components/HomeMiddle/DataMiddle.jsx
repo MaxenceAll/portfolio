@@ -9,6 +9,7 @@ import caisseauto from "../../assets/Data/caisseauto.webp";
 import calculcsharp from "../../assets/Data/calculcsharp.png";
 import tictactoecsharp from "../../assets/Data/tictactoecsharp.webp";
 import convertissor from "../../assets/Data/convertissor.png";
+import drapeaux from "../../assets/Data/drapeaux.png";
 
 
 import vaultboy from "../../assets/Data/vaultboycoding.webp";
@@ -25,6 +26,7 @@ function DataMiddle() {
   const projectLinks = {
     pipboy: "https://github.com/MaxenceAll/portfolio",
     todo: "https://github.com/MaxenceAll/first_app",
+    drapeaux: "https://github.com/MaxenceAll/project-drapeaux",
     blogvoyage: "https://github.com/MaxenceAll/TPMVVM_max",
     caisseauto: "https://github.com/MaxenceAll/Caisseauto",
     calculcsharp: "https://github.com/MaxenceAll/b_Calculatrice",
@@ -35,6 +37,7 @@ function DataMiddle() {
   const imageTexts = {
     pipboy:"Vous êtes actuellement dessus, c'est mon second projet REACT, a servi de base d'apprentissage. Fait en REACT.js + HTML + CSS.",
     todo: "Première appli REACT complète (API reste en NODE.JS et React pour le front.",
+    drapeaux: "Petit projet pour apprendre a afficher des données issues d'un API + découverte des routes. Ce projet permet de filtrer et afficher tous les pays du monde !(REACT)",
     blogvoyage: "Second projet pour appréhender le javascript (apprentissage NODE.JS) en MVVM.",
     caisseauto: "Premier projet pour appréhender le javascript, il s'agit d'une caisse enregistreuse qui rend la monnaie (+ visuel).",
     calculcsharp: "L'un des premiers projets effectués afin d'apprendre les bases en c#",
@@ -60,6 +63,13 @@ function DataMiddle() {
               className={activeTab === todo ? "data-active-tab" : ""}
             >
               Projet ToDo
+            </li>
+
+            <li
+              onClick={() => handleLiClick(drapeaux)}
+              className={activeTab === drapeaux ? "data-active-tab" : ""}
+            >
+              Projet Drapeaux
             </li>
 
             <li
@@ -97,6 +107,9 @@ function DataMiddle() {
             >
               Convertisseur
             </li>
+
+
+
 
 
 

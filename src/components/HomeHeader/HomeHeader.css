@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    border-bottom: solid 1px var(--main-color);
+    border-bottom: solid 1px var(--main-color);   
 }
 
 .header-tabs li {
@@ -13,8 +13,7 @@
 }
 
 .header-tabs li:hover {
-    cursor: pointer;
-    background-color: var(--secondary-color);
+    cursor: pointer;    
 }
 
 .header-tab-active li::before {

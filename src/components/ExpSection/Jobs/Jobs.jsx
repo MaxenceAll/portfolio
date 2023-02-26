@@ -19,7 +19,6 @@ function Jobs() {
   };
 
   const imageTexts = {
-    //TODO fix ces descriptions
     sitel: "10ans chez Sitel/Acticall avec pour client PMU, j'ai pu voir/pratiquer tous les aspects de ce métier; du téléconseiller au téléphone/réseaux sociaux, à la gestion des flux/chiffres en tant que 'real-time analyst' ou encore dans le management en tant que superviseur et enfin j'ai même pu y animer des formations."
   };
 

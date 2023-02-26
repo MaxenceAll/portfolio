@@ -1,58 +1,46 @@
 import { NavLink } from "react-router-dom";
 
-import './HomeHeader.css'
+import "./HomeHeader.css";
 
 function HomeHeader() {
   return (
     <>
       <header className="header">
         <ul className="header-tabs">
-
-          <NavLink 
-          to="/stat/status"
-          className={(nav) => (nav.isActive ? "header-tab-active" : "")}
+          <NavLink
+            to="/stat/status"
+            className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
-            <li className="">
-             STAT
-            </li>
+            <li className="">STAT</li>
           </NavLink>
 
-          <NavLink 
-          to="/exp/jobs"
-          className={(nav) => (nav.isActive ? "header-tab-active" : "")}
+          <NavLink
+            to="/exp/jobs"
+            className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
-            <li>
-              EXP
-            </li>
+            <li>EXP</li>
           </NavLink>
 
-          <NavLink 
-          to="/data"
-          className={(nav) => (nav.isActive ? "header-tab-active" : "")}
+          <NavLink
+            to="/data"
+            className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
-          <li>
-            DATA
-          </li>
+            <li>DATA</li>
           </NavLink>
 
-          <NavLink 
-          to="/map"
-          className={(nav) => (nav.isActive ? "header-tab-active" : "")}
+          <NavLink
+            to="/map"
+            className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
-            <li>
-              MAP
-            </li>
+            <li>MAP</li>
           </NavLink>
 
-          <NavLink 
-          to="/color"
-          className={(nav) => (nav.isActive ? "header-tab-active" : "")}
+          <NavLink
+            to="/color"
+            className={(nav) => (nav.isActive ? "header-tab-active" : "")}
           >
-          <li>
-            COLOR
-          </li>
+            <li>COLOR</li>
           </NavLink>
-          
         </ul>
       </header>
     </>
