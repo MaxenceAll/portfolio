@@ -14,13 +14,14 @@ function HomeMiddle() {
 
             <div className="HomeMiddleContent">
                <Status />
-            </div>            
+            </div> 
+
+          <div className="HomeMiddleContent--ContactCV">
+              <ContactCV/>
+          </div>    
 
         </div>
 
-        <div>
-            <ContactCV/>
-        </div>    
         
     </>
   );
