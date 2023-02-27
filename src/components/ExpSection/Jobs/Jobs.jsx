@@ -46,7 +46,9 @@ function Jobs() {
         </div>
 
       </div>
+      <div className="jobs-right-side--contact">
         <ContactCV/>
+      </div>
     </>
   );
 }
