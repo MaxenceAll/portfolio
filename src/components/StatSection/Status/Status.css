@@ -60,6 +60,9 @@
 
 .StatusFooter {
   grid-area: 5 / 1 / 6 / 5;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   
 }
 

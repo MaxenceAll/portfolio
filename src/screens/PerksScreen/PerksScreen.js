@@ -19,13 +19,13 @@ function PerksScreen(props) {
             <HomeHeader />   
           </div>
 
-          <div className="statMiddleContainer">
+          <div className="">
 
-            <div className="statSousTab">
+            <div className="">
                 <SousTabStat/>
             </div>
             
-            <div className="StatPerks">
+            <div className="">
                 <Perks />
             </div>
 

@@ -69,10 +69,3 @@ function Perks() {
 }
 
 export default Perks;
-
-// teampwork
-// management
-// autonomie
-// adaptability
-// meticuleux 
-// analytique
