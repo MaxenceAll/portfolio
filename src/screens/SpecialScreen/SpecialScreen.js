@@ -19,7 +19,7 @@ function SpecialScreen(props) {
             <HomeHeader />   
           </div>
 
-          <div className="statMiddleContainer">
+          <div className="specialMiddleContainer">
 
             <div className="statSousTab">
                 <SousTabStat/>

@@ -60,12 +60,7 @@
 
 .StatusFooter {
   grid-area: 5 / 1 / 6 / 5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: nowrap;  
-  padding-top: auto;
+  
 }
 
 .StatusFooter ul {
@@ -78,6 +73,7 @@
 .StatusFooter-container li {
   background-color: var(--secondary-color);
   font-size: calc(1rem + 2vw);
+  padding: 10px;
 }
 
 

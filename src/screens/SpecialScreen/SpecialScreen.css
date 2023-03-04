@@ -1,4 +1,4 @@
-.statMiddleContainer{
+.specialMiddleContainer{
     display: grid;
     grid-template-columns: repeat(auto, auto);
     grid-template-rows: auto auto;

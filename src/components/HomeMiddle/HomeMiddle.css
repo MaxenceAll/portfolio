@@ -1,14 +1,13 @@
 .HomeMiddleContainer{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 5fr auto auto;
+    grid-template-rows: 10px auto auto 10px;
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 5%;
 }
 
 .HomeMiddleHeader { 
-    grid-area: 1 / 1 / 2 / 2; 
-    
+    grid-area: 1 / 1 / 2 / 2;
 }
 .HomeMiddleContent { 
     grid-area: 2 / 1 / 3 / 2; 
@@ -19,7 +18,9 @@
 .HomeMiddleFooter { 
     grid-area: 3 / 1 / 4 / 2; 
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: center;  
+
 }
 .LienversCV{
     color: var(--main-color);

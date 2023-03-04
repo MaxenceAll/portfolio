@@ -16,8 +16,8 @@ function Stat(props) {
             <HomeHeader />
           </div>
 
-          <div className="statMiddleContainer">
-            <div className="ecran-section">
+          <div className="">
+            <div className="">
               <HomeMiddle />
             </div>
           </div>

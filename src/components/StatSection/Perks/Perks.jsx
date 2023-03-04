@@ -59,7 +59,7 @@ function Perks() {
             ) : (
               <>
               <div><img src={vaultboy} alt="vaultboy pouce en l'air" /> </div>
-              <p>Mes compétences (soft skill) !</p>
+              <p>Mes compétences (soft skill)</p>
               </>
             )}
         </div>
