@@ -15,12 +15,12 @@ function ContactCV() {
         <div className='ContactCV'>
             
             <div className="HomeMiddleFooter">
-                <NavLink to="/cv" className="LienversCV">
+                <NavLink to="https://maxenceall.github.io/ProjectCV/" className="LienversCV">
                         <p>ALLART Maxence : Concepteur Developpeur d'Application</p>
                         <p >Télécharger CV :<FaDownload /></p>
                 </NavLink>
             </div>
-                        <p className="mail-me" onClick={handleClick}>Contact : maxence.allart@gmail.com  <HiMail /></p>
+            <p className="mail-me" onClick={handleClick}>Contact : maxence.allart@gmail.com  <HiMail /></p>
         </div>
     </> );
 }

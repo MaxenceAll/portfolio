@@ -9,3 +9,7 @@
     color: var(--secondary-color);
     background-color: var(--main-color);
 }
+
+.aboutcontent-container{
+    font-size: calc(0.5rem + 0.5vw);
+}

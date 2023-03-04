@@ -13,7 +13,6 @@ import vaultboy from "../../../assets/vaultboy.gif";
 
 function Special() {
   const [selectedImage, setSelectedImage] = useState(null);
-
   const [activeTab, setActiveTab] = useState(null);
 
   const handleLiClick = (image) => {
@@ -25,10 +24,10 @@ function Special() {
     strength: "A force de COPIER/COLLER, l'index et l'orriculaire sont particulièrement musclés !.",
     perception: "Capable de débusquer les () ou les {} mal placés avant même de les taper !.",
     endurance: "10h de code par jour ? No problemo .... avec 10 redbull par heure.",
-    charisma: "Lunettes geeks CHECK. Barbe geek CHECK. Chemise à carreaux geek CHECK.",
+    charisma: "Lunettes geeks CHECK.\n Barbe geek CHECK.\n Chemise à carreaux geek CHECK.",
     intelligence: "Suffisamment intélligent pour demander à CHATgpt et comprendre la réponse.",
-    agility: "L'agilité ? C'est débrouissailler du code déprécié, explorer les nouveaux frameworks, avec rien d'autre que son fidèle IDEs dopé d'extensions. Et tout comme un survivaliste, toujours avoir un plan de secours (un dépôt GitHub). Mais c'est aussi une méthode de gestion de projet !",
-    luck: "Pas besoin de chance quand on trafique le Math.random()  qui n'est même pas un true random !",
+    agility: "L'agilité ? C'est débrouissailler du code déprécié, explorer les nouveaux frameworks, avec rien d'autre que son fidèle IDEs dopé d'extensions. Et tout comme un survivaliste, toujours avoir un plan de secours (un dépôt GitHub). Mais c'est aussi une méthode de gestion de projet...",
+    luck: "Pas besoin de chance quand on trafique le Math.random().",
   };
 
   return (
@@ -38,7 +37,7 @@ function Special() {
         <ul>
             <li onClick={() => handleLiClick(strength)} className={activeTab === strength ? "special-active-tab" : ""}>Strength <span className="specialValue">10</span></li> 
             <li onClick={() => handleLiClick(perception)} className={activeTab === perception ? "special-active-tab" : ""}>Perception <span className="specialValue">8</span></li>
-            <li onClick={() => handleLiClick(endurance)} className={activeTab === endurance ? "special-active-tab" : ""}>Endurance <span className="specialValue">11</span></li>
+            <li onClick={() => handleLiClick(endurance)} className={activeTab === endurance ? "special-active-tab" : ""}>Endurance <span className="specialValue">10</span></li>
             <li onClick={() => handleLiClick(charisma)} className={activeTab === charisma ? "special-active-tab" : ""}>Charisma <span className="specialValue">7</span></li>
             <li onClick={() => handleLiClick(intelligence)} className={activeTab === intelligence ? "special-active-tab" : ""}>Intelligence <span className="specialValue">8</span></li>
             <li onClick={() => handleLiClick(agility)} className={activeTab === agility ? "special-active-tab" : ""}>Agility <span className="specialValue">8</span></li>
