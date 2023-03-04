@@ -2,21 +2,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 88px;
-    grid-row-gap: 88px;
-    padding-top: 15%;
+    grid-column-gap: 44px;
+    grid-row-gap: 44px;
+    padding-top: 10%;
     padding-left: 0;
     text-align: center;
-
+    
+    /* font-size: 0.5rem; */
 }
 
 
 .color-container div:hover {
     cursor: pointer;
 }
-
-
-
 
 .colorGreen {
     grid-area: 1 / 1 / 2 / 2;

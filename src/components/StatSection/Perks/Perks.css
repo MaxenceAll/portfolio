@@ -27,6 +27,7 @@
     grid-area: 1 / 1 / 2 / 2;
     padding-left: 8%;
     width: 50%;
+    font-size: calc(0.5rem + 0.7vw);
 }
 @media only screen and (max-width: 700px)  {
     .perks-left-side {
@@ -36,6 +37,7 @@
 
 .perks-right-side {
     grid-area: 1 / 2 / 2 / 3;
+    font-size: calc(0.5rem + 0.7vw);
 }
 
 .perks-left-side li:hover{

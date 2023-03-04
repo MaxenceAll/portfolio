@@ -38,6 +38,7 @@
 
 .jobs-right-side {
     grid-area: 1 / 2 / 2 / 3;
+    font-size: calc(0.1rem + 0.7vw);
 }
 
 .jobs-left-side li:hover{
@@ -61,8 +62,9 @@
 }
 
 .jobs-right-side p{
-    font-size: calc(0.2rem + 1vw);
+    font-size: calc(0.15rem + 0.9vw);
 }
 .jobs-right-side img{
-    width: calc(5rem + 10vw);
+    width: calc(3rem + 10vw);
 }
+
