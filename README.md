@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Bonjour et bienvenue sur mon portfolio ! Je suis ALLART Maxence, actuellement en formation pour préparer le titre "Concepteur développer d'application", titre reconnu par l'état, bac+4.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Je suis en pleine reconversion professionnelle, passionné d'informatique depuis toujours, cette formation me permet de revenir dans mon domaine de predilection !
+Cette formation me prépare, entre autre, à la conception et au développement :
+- Des composants d'interface utilisateur en intégrant les recommandations de sécurité.
+- La persistance des données en intégrant les recommandations de sécurité.
+- Une application multicouche répartie en intégrant les recommandations de sécurité.
 
-## Available Scripts
+Pour la petite histoire, je cherchais un moyen original et amusant de présenter mon site perso. Etant passionné de jeux vidéo, j'ai pensé au PIP-BOY de l'univers du jeu vidéo FALLOUT© . Dans le jeu video, il s'agit d'un petit ordinateur portable qui regroupe les données personnelles du joueur, cela me semble bien approprié ☺. Vous verrez donc ici des informations me concernant !
 
-In the project directory, you can run:
+Petite précision, ce site a était effectué avec REACT, il était à la base un endroit où j'expérimentais les choses apprises sur ce langage. Enfin, il s'agit que d'une première version et le site sera refait entièrement lorsque ma maitrise de React augmentera.
+Je vous souhaite bonne navigation, n'hésitez pas à me contacter.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Petits aperçus :
+<img src="./src/assets/capturesReadme/desktop_abouthomepage_.png" alt="capture écran du site" width="350"/>
+<img src="./src/assets/capturesReadme/desktop_statustab.png" alt="capture écran du site" width="350"/>
+<img src="./src/assets/capturesReadme/mobile_colortab.png" alt="capture écran du site" width="350"/>
+<img src="./src/assets/capturesReadme/mobile_datatab.png" alt="capture écran du site" width="350"/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div style="background-color: #F5F5F5; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px #888888; font-family: Arial, sans-serif;">
+<h1 style="font-size: 24px; margin-bottom: 10px;">Allart Maxence</h1>
+<p style="font-size: 16px; margin-bottom: 20px;">Concepteur Développeur d'Application</p>
+<p style="font-size: 14px; margin-bottom: 5px;"><strong>Email:</strong> maxence.allart@gmail.com</p>
+<p style="font-size: 14px; margin-bottom: 5px;"><strong>Phone:</strong> (+33) 652792343</p>
+<p style="font-size: 14px; margin-bottom: 5px;"><strong>Website:</strong> www.maxenceallart.fr</p>
+<p style="font-size: 14px; margin-bottom: 5px;"><strong>Address:</strong> Tourcoing, France.</p>
+</div>
