@@ -8,7 +8,7 @@ Cette formation me prépare, entre autre, à la conception et au développement 
 
 Pour la petite histoire, je cherchais un moyen original et amusant de présenter mon site perso. Etant passionné de jeux vidéo, j'ai pensé au PIP-BOY de l'univers du jeu vidéo FALLOUT© . Dans le jeu video, il s'agit d'un petit ordinateur portable qui regroupe les données personnelles du joueur, cela me semble bien approprié ☺. Vous verrez donc ici des informations me concernant !
 
-Petite précision, ce site a était effectué avec REACT, il était à la base un endroit où j'expérimentais les choses apprises sur ce langage. Enfin, il s'agit que d'une première version et le site sera refait entièrement lorsque ma maitrise de React augmentera.
+Petite précision, ce site a était effectué avec REACT, il était à la base un endroit où j'expérimentais les choses apprises sur ce langage. Enfin, il s'agit que d'une première version et le site sera refait entièrement lorsque ma maitrise de React augmentera. (Fait avant les routers de route/usecontext et autres layouts)
 Je vous souhaite bonne navigation, n'hésitez pas à me contacter.
 
 
