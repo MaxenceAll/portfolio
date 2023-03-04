@@ -103,7 +103,7 @@ body {
       transparent 100%);
   background-repeat: no-repeat;
   animation: scan 7.5s linear 0s infinite;
-  margin: 15vh 14.0vw;
+  margin: 13.6vh 15vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -148,7 +148,7 @@ body {
   background-size: cover;
   z-index: 9999;
   opacity: .02;
-  margin: 15vh 15vw;
+  margin: 13.6vh 15vw;
 }
 
 @media only screen and (max-width: 600px) {
