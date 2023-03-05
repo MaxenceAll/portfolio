@@ -22,7 +22,7 @@ function Diplomes() {
   const imageTexts = {
     "eic":  "Baccalauréat sciences et technologies industrielles en génie électrotechnique - obtenu avec mention Assez-Bien.",
     "afpa": "Certification a passer le 16 septembre.",
-    "iris": "BTS Informatique et Réseaux pour l'Industrie et les Services Techniques, première année validée avec succès, malheureusement, il n'aura pas été possible pour moi de finir ce cursus de 2 ans."
+    "iris": "BTS Informatique et Réseaux pour l'Industrie et les Services Techniques, première année validée avec succès."
   };
 
   return (

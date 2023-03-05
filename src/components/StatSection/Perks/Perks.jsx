@@ -39,14 +39,14 @@ function Perks() {
       <div className="perks-container">
         <div className="perks-left-side">
         <ul>
-            <li onClick={() => handleLiClick(adaptabilite)} className={activeTab === adaptabilite ? "perks-active-tab" : ""}>Adaptabilite.</li>
-            <li onClick={() => handleLiClick(autonomie)} className={activeTab === autonomie ? "perks-active-tab" : ""}>Autonomie.</li>
-            <li onClick={() => handleLiClick(analytique)} className={activeTab === analytique ? "perks-active-tab" : ""}>Analytique.</li>
-            <li onClick={() => handleLiClick(curieux)} className={activeTab === curieux ? "perks-active-tab" : ""}>Curieux.</li> 
-            <li onClick={() => handleLiClick(logique)} className={activeTab === logique ? "perks-active-tab" : ""}>Logique.</li>
-            <li onClick={() => handleLiClick(management)} className={activeTab === management ? "perks-active-tab" : ""}>Management.</li>
-            <li onClick={() => handleLiClick(rigoureux)} className={activeTab === rigoureux ? "perks-active-tab" : ""}>Rigoureux.</li>
-            <li onClick={() => handleLiClick(teamwork)} className={activeTab === teamwork ? "perks-active-tab" : ""}>Teamwork.</li>
+            <li onClick={() => handleLiClick(adaptabilite)} className={activeTab === adaptabilite ? "perks-active-tab" : ""}>Adaptabilite</li>
+            <li onClick={() => handleLiClick(autonomie)} className={activeTab === autonomie ? "perks-active-tab" : ""}>Autonomie</li>
+            <li onClick={() => handleLiClick(analytique)} className={activeTab === analytique ? "perks-active-tab" : ""}>Analytique</li>
+            <li onClick={() => handleLiClick(curieux)} className={activeTab === curieux ? "perks-active-tab" : ""}>Curieux</li> 
+            <li onClick={() => handleLiClick(logique)} className={activeTab === logique ? "perks-active-tab" : ""}>Logique</li>
+            <li onClick={() => handleLiClick(management)} className={activeTab === management ? "perks-active-tab" : ""}>Management</li>
+            <li onClick={() => handleLiClick(rigoureux)} className={activeTab === rigoureux ? "perks-active-tab" : ""}>Rigoureux</li>
+            <li onClick={() => handleLiClick(teamwork)} className={activeTab === teamwork ? "perks-active-tab" : ""}>Teamwork</li>
           </ul>
         </div>
 

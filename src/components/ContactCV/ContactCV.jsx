@@ -15,7 +15,7 @@ function ContactCV() {
         <div className='ContactCV'>
             
             <div className="">
-                <NavLink to="https://maxenceall.github.io/ProjectCV/" className="LienversCV">
+                <NavLink target="_blank" to="https://maxenceall.github.io/ProjectCV/" className="LienversCV">
                         <p>ALLART Maxence : Concepteur Developpeur d'Application</p>
                         <p >Télécharger CV :<FaDownload /></p>
                 </NavLink>
