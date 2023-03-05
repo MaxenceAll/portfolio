@@ -70,9 +70,6 @@ function Status() {
 
         <div className="StatusFooter">
           <div className="StatusFooter-container">
-            <div className="StatusFooter-text">
-              <p>Outils équipés:</p>
-            </div>
             <ul>
               <li>
                 <SiIntellijidea />

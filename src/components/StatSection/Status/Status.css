@@ -59,18 +59,17 @@
 }
 
 .StatusFooter {
-  grid-area: 5 / 1 / 6 / 5;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  
+  grid-area: 5 / 1 / 6 / 5;   
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .StatusFooter ul {
+  font-size: calc(2.5rem + 0.5vw);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(2.5rem + 0.5vw);
+  flex-wrap: wrap;
 }
 
 .StatusFooter-container li {
@@ -109,13 +108,7 @@
   width: 75%;
 }
 
-.StatusFooter-text{
-  padding-top: 5%;
-}
-.StatusFooter-text  > p {
-  font-size: calc(0.1rem + 0.5vw + 0.5vh);
 
-}
 
 
 /* *{
