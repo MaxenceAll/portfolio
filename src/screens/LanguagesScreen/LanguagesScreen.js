@@ -1,4 +1,3 @@
-import Diplomes from "../../components/ExpSection/Diplomes/Diplomes";
 import Languages from "../../components/ExpSection/Languages/Languages";
 import HomeFooter from "../../components/HomeFooter/HomeFooter";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";

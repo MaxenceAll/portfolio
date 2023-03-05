@@ -1,7 +1,6 @@
 import ContactCV from "../../components/ContactCV/ContactCV";
 import HomeFooter from "../../components/HomeFooter/HomeFooter";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
-import HomeMiddle from "../../components/HomeMiddle/HomeMiddle";
 import SousTabStat from "../../components/SousTabStat/SousTabStat";
 import Status from "../../components/StatSection/Status/Status";
 
@@ -19,12 +18,6 @@ function Stat(props) {
             <HomeHeader />
           </div>
 
-          {/* <div className="">
-            <div className="">
-              <HomeMiddle />
-            </div>
-          </div> */}
-
           <div className="">
             <div className="">
               <SousTabStat />
@@ -32,11 +25,9 @@ function Stat(props) {
 
             <div className="">
               <Status />
-              <ContactCV/>
+              <ContactCV />
             </div>
           </div>
-
-          
 
           <div className="">
             <HomeFooter />
