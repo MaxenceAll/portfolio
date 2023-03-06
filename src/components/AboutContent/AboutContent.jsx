@@ -49,7 +49,7 @@ function AboutContent() {
         <br />
 
         <div>
-          Petite précision, ce site a était effectué avec REACT, il était à la
+          Petite précision, ce site a été effectué avec REACT, il était à la
           base un endroit où j'expérimentais les choses apprises sur ce langage.
           Enfin, il s'agit que d'une première version et le site sera refait
           entièrement lorsque ma maitrise de React augmentera. (Fait avant les routers de route/usecontext et autres layouts)

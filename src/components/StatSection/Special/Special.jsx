@@ -21,7 +21,7 @@ function Special() {
   };
 
   const imageTexts = {
-    strength: "A force de COPIER/COLLER, l'index et l'orriculaire sont particulièrement musclés !.",
+    strength: "A force de COPIER/COLLER, l'index et l'orriculaire sont particulièrement musclés !",
     perception: "Capable de débusquer les () ou les {} mal placés avant même de les taper !",
     endurance: "10h de code par jour ? No problemo .... avec 10 redbull par heure.",
     charisma: "Lunettes geeks CHECK.\n Barbe geek CHECK.\n Chemise à carreaux geek CHECK.",
