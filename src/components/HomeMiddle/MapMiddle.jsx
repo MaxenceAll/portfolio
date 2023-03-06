@@ -1,5 +1,5 @@
 import './MapMiddle.css';
-import MapNord from "../../assets/nord.gif";
+import MapNord from "../../assets/nord.png";
 import ContactCV from '../ContactCV/ContactCV';
 
 
