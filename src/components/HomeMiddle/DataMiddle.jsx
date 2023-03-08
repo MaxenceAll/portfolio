@@ -10,6 +10,7 @@ import calculcsharp from "../../assets/Data/calculcsharp.png";
 import tictactoecsharp from "../../assets/Data/tictactoecsharp.webp";
 import convertissor from "../../assets/Data/convertissor.png";
 import drapeaux from "../../assets/Data/drapeaux.png";
+import vanslife from "../../assets/Data/vanslife.webp";
 
 
 import vaultboy from "../../assets/Data/vaultboycoding.webp";
@@ -32,6 +33,7 @@ function DataMiddle() {
     calculcsharp: "https://github.com/MaxenceAll/b_Calculatrice",
     tictactoecsharp: "https://github.com/MaxenceAll/e_TicTacToe",
     convertissor: "https://github.com/MaxenceAll/g_Convertissor",
+    vanslife: "https://github.com/MaxenceAll/vanslife"
   };
 
   const imageTexts = {
@@ -43,6 +45,7 @@ function DataMiddle() {
     calculcsharp: "L'un des premiers projets effectués afin d'apprendre les bases en c#",
     tictactoecsharp: "L'un des premiers projets effectués afin d'apprendre les bases en c#",
     convertissor: "L'un des premiers projets effectués afin d'apprendre les bases en c#",
+    vanslife: "Entrainement avec react-routerv6, petit site de location de Vans(REACT + Firebase pour la DB)"
   };
 
   return (
@@ -70,6 +73,14 @@ function DataMiddle() {
               className={activeTab === drapeaux ? "data-active-tab" : ""}
             >
               Projet Drapeaux
+            </li>
+
+
+            <li
+              onClick={() => handleLiClick(vanslife)}
+              className={activeTab === vanslife ? "data-active-tab" : ""}
+            >
+              Projet VansLife
             </li>
 
             <li
@@ -124,6 +135,7 @@ function DataMiddle() {
               <p>
                 Lien vers la source de ce projet :{" "}
                 <a
+                  target="_blank" rel="noopener noreferrer"
                   href={
                     projectLinks[selectedImage.split("/").pop().split(".")[0]]
                   }
