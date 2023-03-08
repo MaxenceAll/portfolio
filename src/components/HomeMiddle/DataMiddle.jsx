@@ -118,11 +118,7 @@ function DataMiddle() {
             >
               Convertisseur
             </li>
-
-
-
-
-
+            
 
           </ul>
         </div>
